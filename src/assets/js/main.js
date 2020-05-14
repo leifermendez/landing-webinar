@@ -1,5 +1,5 @@
 $('.hiro-nav-popup-toggle').click(function () {
-  $('body').toggleClass('hiro-nav-popup-modal-open');
+
 });
 
 
@@ -74,6 +74,13 @@ $myCarousel.on('slide.bs.carousel', function (e) {
   var $animatingElems = $(e.relatedTarget)
     .find("[data-animation ^= 'animated']");
   doAnimations($animatingElems);
+});
+
+$(window).on("load", function () {
+  const menuIcon = document.querySelector('.hiro-nav-popup-toggle');
+  menuIcon.addEventListener('click', function () {
+    $('body').toggleClass('hiro-nav-popup-modal-open');
+  })
 });
 
 new WOW().init();

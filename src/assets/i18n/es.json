@@ -20,10 +20,46 @@
     "FIRST_SENTENCE": "HOLA SOY LA TERCERA FRASE",
     "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
   },
-  "SECTION_FOURTH": {
-    "FIRST_SENTENCE": "HOLA SOY LA CUATRO FRASE",
-    "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
+  "BLOCK_ONE": {
+    "FIRST_SENTENCE": "Digital Product Design",
+    "SECOND_SENTENCE": "We take products through every stage necessary for their creation – Product Discovery, Business and User Research, UX/UI Design, Prototyping, Usability T",
+    "THIRD_SENTENCE": "We take products through every stage necessary for their creation – We take products through every stage necessary for their creation – We take products through every stage necessary for their creation – "
+  },
+  "BLOCK_SERVICES": {
+    "TITLE": "Our services",
+    "FIRST_PLAN": {
+      "TITLE": "Strategy",
+      "CONTENT.ONE": "UI & UX design",
+      "CONTENT.TWO": "UI & UX design",
+      "CONTENT.THREE": "UI & UX design"
+    },
+    "SECOND_PLAN": {
+      "TITLE": "Strategy2",
+      "CONTENT.ONE": "UI & UX design",
+      "CONTENT.TWO": "UI & UX design",
+      "CONTENT.THREE": "UI & UX design"
+    },
+    "THREE_PLAN": {
+      "TITLE": "Strategy3",
+      "CONTENT.ONE": "UI & UX design",
+      "CONTENT.TWO": "UI & UX design",
+      "CONTENT.THREE": "UI & UX design"
+    }
+  },
+  "BLOCK_TEAM": {
+    "TITLE": "Meet <br> The Team",
+    "CONTENT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+  },
+  "BLOCK_TALK": {
+    "TITLE": "Let’s talk",
+    "CONTENT": "At Explose, it’s always storytelling time. Swing by & share yours..",
+    "ADDRESS": "9010 Varna, Bulgaria, <br> Breeze Borough, <br> Saint Nicholas, 26",
+    "PHONE": "UK: +44 567 637 0000 <br> hey@costomarl.com"
   },
   "FOOTER": {
+    "COPY": "© <a href=\"https://www.bootstrapdash.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-reset\">BootstrapDash</a> 2020. All rights reserved.",
+    "TERMS": "Terms and Conditions",
+    "PRIVACY": "Privacy Policy",
+    "COOKIE": "Cookie Policy"
   }
 }

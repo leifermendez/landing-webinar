@@ -138,19 +138,16 @@
         <div class="col-md-6 menu-wrapper">
           <ul class="nav hiro-main-nav">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
+              <a (click)="clickLink()" [routerLink]="['/']" fragment="one" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About Us</a>
+              <a (click)="clickLink()" [routerLink]="['/']" fragment="two" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
+              <a (click)="clickLink()" [routerLink]="['/']" fragment="three" class="nav-link">Works</a>
             </li>
             <li class="nav-item">
-              <a href="#works" class="nav-link">Works</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a (click)="clickLink()" [routerLink]="['/']" fragment="forth" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>

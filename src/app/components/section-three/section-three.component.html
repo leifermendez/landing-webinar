@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 wow fadeInUp">
-        <h2 class="section-title">Meet <br> The Team</h2>
-        <p class="section-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+        <h2 class="section-title" [innerHTML]="'BLOCK_TEAM.TITLE'|translate"></h2>
+        <p class="section-text-light">{{"BLOCK_TEAM.CONTENT" | translate}}</p>
         <div>
           <a class="carousel-control-prev" href="#hiroTeamCarousel" role="button" data-slide="prev">
             <img src="assets/images/arrow_left.png" alt="left arrow" width="20px">
