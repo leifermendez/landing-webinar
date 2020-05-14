@@ -1,1 +1,177 @@
-<p>header works!</p>
+<header class="hiro-header home-header" id="top">
+  <nav>
+    <div class="container">
+      <div class="hiro-nav">
+        <a href="index.html" class="nav-brand">
+          <img src="assets/images/logo.svg" alt="Hiro" class="logo">
+          <img src="assets/images/logo_white.svg" alt="Hiro" class="logo-white">
+        </a>
+        <button class="hiro-nav-popup-toggle">
+          <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Hiro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="hiro-agency" transform="translate(-964.000000, -37.000000)" fill="#FFFFFF">
+                <g id="Menu" transform="translate(964.000000, 37.000000)">
+                  <g id="menu">
+                    <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="7.50795322" width="19.9609942"
+                          height="2.4951462"></rect>
+                    <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="14.9964327" width="19.9609942"
+                          height="2.4951462"></rect>
+                    <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="0.0194736842" width="19.9609942"
+                          height="2.4951462"></rect>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="container wow fadeInUp">
+    <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01">
+                <span>{{'SECTION_ONE.FIRST_SENTENCE' | translate}}</span></h1>
+              <p class="carousel-item-description" data-animation="animated fadeInRight">
+                {{'SECTION_ONE.SECOND_SENTENCE' | translate}}
+              </p>
+              <a href="#!" class="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">
+                {{"GENERAL.VIEW_MORE" |translate}}
+              </a>
+              <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/image_1.jpeg" [alt]="'SECTION_ONE.FIRST_SENTENCE' | translate"
+                   class="img-fluid w-100 rounded img-block"
+                   width="372px">
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="02">
+                <span>{{'SECTION_TWO.FIRST_SENTENCE' | translate}}</span>
+              </h1>
+              <p class="carousel-item-description" data-animation="animated fadeInRight">
+                {{'SECTION_TWO.SECOND_SENTENCE' | translate}}
+              </p>
+              <a href="#!" class="carousel-item-link link-hover-fx"
+                 data-animation="animated fadeInRight">{{"GENERAL.VIEW_MORE" |translate}}</a>
+              <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/image_2.jpeg" [alt]="'SECTION_TWO.FIRST_SENTENCE' | translate"
+                   class="img-fluid w-100 rounded img-block" width="372px">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"><span>
+                 {{'SECTION_THREE.FIRST_SENTENCE' | translate}}
+              </span>
+              </h1>
+              <p class="carousel-item-description" data-animation="animated fadeInRight">
+                {{'SECTION_THREE.SECOND_SENTENCE' | translate}}
+              </p>
+              <a href="#!" class="carousel-item-link link-hover-fx"
+                 data-animation="animated fadeInRight">{{"GENERAL.VIEW_MORE" |translate}}</a>
+              <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>
+                </li>
+                <li>
+                  <a href="#!" class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/image_3.jpeg" [alt]="'SECTION_THREE.SECOND_SENTENCE' | translate"
+                   class="img-fluid w-100 rounded img-block"
+                   width="372px">
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#hiroHeaderCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#hiroHeaderCarousel" data-slide-to="1"></li>
+        <li data-target="#hiroHeaderCarousel" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </div>
+</header>
+<div class="hiro-nav-popup-modal">
+  <div class="hiro-nav-popup-modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 menu-wrapper">
+          <ul class="nav hiro-main-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#works" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 blog-posts text-white">
+          <h5 class="popup-blog-headng">Blog</h5>
+          <div class="media mb-4">
+            <img src="assets/images/Blog_small2.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+            <div class="media-body align-self-end">
+              <h5 class="popup-blog-post-title">Ambitious <br> designs</h5>
+            </div>
+          </div>
+          <div class="media mb-4">
+            <img src="assets/images/Blog_small1.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+            <div class="media-body align-self-end">
+              <h5 class="popup-blog-post-title">The Collection <br> Cover Archive</h5>
+            </div>
+          </div>
+          <p><a href="blog.html" class="text-white link-hover-fx text-decoration-none" class="font-weight-medium">View
+            more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

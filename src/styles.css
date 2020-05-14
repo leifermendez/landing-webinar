@@ -1,0 +1,17 @@
+/**
+Custom style
+Author: Leifer Mendez
+ */
+
+.button-over-zoom:hover{
+  transform: scale(1.1);
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.img-block{
+  height: 515px;
+  object-fit: cover;
+}

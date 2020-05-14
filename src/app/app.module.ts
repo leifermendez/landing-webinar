@@ -11,7 +11,10 @@ import {SectionTwoComponent} from './components/section-two/section-two.componen
 import {SectionThreeComponent} from './components/section-three/section-three.component';
 import {SectionFourthComponent} from './components/section-fourth/section-fourth.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -27,10 +30,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     SectionOneComponent,
     SectionTwoComponent,
     SectionThreeComponent,
-    SectionFourthComponent
+    SectionFourthComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'es',
       loader: {
@@ -39,7 +44,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production})
+    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

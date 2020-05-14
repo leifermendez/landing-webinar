@@ -1,0 +1,29 @@
+{
+  "HEADER": {
+    "HELLO": "hello"
+  },
+  "GENERAL": {
+    "VIEW_MORE": "Ver más",
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "BEHANCE": "Behance"
+  },
+  "SECTION_ONE": {
+    "FIRST_SENTENCE": "SOMOS TU ENLACE DIRECTO CON CHINA",
+    "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
+  },
+  "SECTION_TWO": {
+    "FIRST_SENTENCE": "HOLA SOY LA SEGUNDA FRASE",
+    "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
+  },
+  "SECTION_THREE": {
+    "FIRST_SENTENCE": "HOLA SOY LA TERCERA FRASE",
+    "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
+  },
+  "SECTION_FOURTH": {
+    "FIRST_SENTENCE": "HOLA SOY LA CUATRO FRASE",
+    "SECOND_SENTENCE": "lorem 10 lorem 10 lorem 10lorem 10 lorem 10 lorem 10 lorem 10 lorem 10"
+  },
+  "FOOTER": {
+  }
+}
