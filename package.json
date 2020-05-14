@@ -9,6 +9,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "author": {
+    "email": "leifer33@gmail.com",
+    "name": "Leifer Mendez"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.0",
@@ -19,6 +23,9 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "@angular/service-worker": "^9.1.7",
+    "@ngx-translate/core": "^12.1.2",
+    "@ngx-translate/http-loader": "^4.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
