@@ -15,6 +15,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import {RouterModule} from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import {ReadMoreDirective} from './read-more.directive';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -31,11 +33,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     SectionTwoComponent,
     SectionThreeComponent,
     SectionFourthComponent,
-    HomeComponent
+    HomeComponent,
+    ReadMoreDirective
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     TranslateModule.forRoot({
       defaultLanguage: 'es',
       loader: {
