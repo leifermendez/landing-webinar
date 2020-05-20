@@ -16,9 +16,9 @@ export class SectionTwoComponent implements OnInit {
   ngOnInit() {
   }
 
-  open(data: any = {}) {
+  open(data: any = null) {
     const initialState = {
-      data
+      section: data
     };
 
     this.bsModalRef = this.modalService.show(

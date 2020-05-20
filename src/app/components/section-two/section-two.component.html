@@ -3,7 +3,7 @@
     <div class="service-section">
       <h2 class="section-title career-section-title">{{ "BLOCK_SERVICES.TITLE" | translate}}</h2>
       <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free" (click)="open()">
+        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free" (click)="open('FIRST_PLAN')">
           <h6 class="service-category-title"
               [innerHTML]="'BLOCK_SERVICES.FIRST_PLAN.TITLE' | translate"></h6>
           <ul class="service-list list-group list-group-flush">
@@ -12,16 +12,16 @@
             <li class="list-group-item">{{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.THREE" | translate}}</li>
           </ul>
           <div>
-            <a href="#"
-               class="hiro-btn-outline button-over-zoom mt-4">
+            <button
+              class="hiro-btn-outline button-over-zoom mt-4">
               {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.FIRST_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-            </a>
+            </button>
           </div>
           <div class="pt-2 pl-1">
-            <a href="" class="link-hover-fx link-light">{{"GENERAL.VIEW_MORE" |translate}}</a>
+            <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.VIEW_MORE" |translate}}</button>
           </div>
         </div>
-        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free">
+        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free" (click)="open('SECOND_PLAN')">
           <h6 class="service-category-title">{{"BLOCK_SERVICES.SECOND_PLAN.TITLE" | translate}}</h6>
           <ul class="service-list list-group list-group-flush">
             <li class="list-group-item">{{"BLOCK_SERVICES.SECOND_PLAN.CONTENT.ONE" | translate}}</li>
@@ -29,24 +29,24 @@
             <li class="list-group-item">{{"BLOCK_SERVICES.SECOND_PLAN.CONTENT.THREE" | translate}}</li>
           </ul>
           <div class="d-flex">
-            <a href="#"
+            <button
                class="hiro-btn-outline button-over-zoom mt-4">
               <div></div>
               {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.SECOND_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-            </a>
+            </button>
             <div class="mt-4 pl-2 badge-strike">
               <div>
-                <div><small>Antes</small></div>
+                <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>
                 <span class="text-strike"> {{ 'GENERAL.SYMBOL' |translate}}
                   {{"BLOCK_SERVICES.SECOND_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>
               </div>
             </div>
           </div>
           <div class="pt-2 pl-1">
-            <a href="" class="link-hover-fx link-light">{{"GENERAL.VIEW_MORE" |translate}}</a>
+            <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.VIEW_MORE" |translate}}</button>
           </div>
         </div>
-        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free">
+        <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp plan plan-free" (click)="open('THIRD_PLAN')">
           <h6 class="service-category-title">{{"BLOCK_SERVICES.THREE_PLAN.TITLE" | translate}}</h6>
           <ul class="service-list list-group list-group-flush">
             <li class="list-group-item">{{"BLOCK_SERVICES.THREE_PLAN.CONTENT.ONE" | translate}}</li>
@@ -54,14 +54,14 @@
             <li class="list-group-item">{{"BLOCK_SERVICES.THREE_PLAN.CONTENT.THREE" | translate}}</li>
           </ul>
           <div class="d-flex">
-            <a href="#"
+            <button
                class="hiro-btn-outline button-over-zoom mt-4">
               <div></div>
               {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.THREE_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-            </a>
+            </button>
             <div class="mt-4 pl-2 badge-strike">
               <div>
-                <div><small>Antes</small></div>
+                <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>
                 <span class="text-strike"> {{ 'GENERAL.SYMBOL' |translate}}
                   {{"BLOCK_SERVICES.THREE_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>
               </div>
@@ -69,7 +69,7 @@
           </div>
 
           <div class="pt-2 pl-1">
-            <a href="" class="link-hover-fx link-light">{{"GENERAL.VIEW_MORE" |translate}}</a>
+            <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.VIEW_MORE" |translate}}</button>
           </div>
         </div>
       </div>

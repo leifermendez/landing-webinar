@@ -9,7 +9,9 @@
     "TWITTER": "Twitter",
     "BEHANCE": "Más información",
     "SYMBOL": "$",
-    "CURRENCY": "USD"
+    "CURRENCY": "USD",
+    "WS": "https://wa.me/34645356542",
+    "BEFORE": "Antes"
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? NOSOTROS TE ASESORAMOS!",
@@ -69,5 +71,48 @@
     "TERMS": "Terms and Conditions",
     "PRIVACY": "Privacy Policy",
     "COOKIE": "Cookie Policy"
+  },
+  "MODAL_PLAN": {
+    "FIRST_PLAN": {
+      "TITLE": "MEMBRESÍA PERSONAL FREE",
+      "CONTENT": "Realizamos la compra por el cliente nosotros cotizamos el producto de tu preferencia que podrás ver en nuestro catálogo y compramos por ti, hacemos la gestión de empaquetado y logística de envío a tu país por medio de correo nacional o Courier privado de aseguraremos de que la calidad sea siempre la mejor con la supervisión y seguimiento que conlleva nuestros lazos con los fabricantes Chinos",
+      "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
+      "LIST": [
+        "Podrás cotizar a través de nosotros un producto o varios",
+        "Podrás tener acceso al catálogo",
+        "Los pagos a nuestros proveedores se realizan por western unión o moneygram",
+        "Depende de la cantidad de la Compra, el pago del envió corre por cuenta del cliente si quisiera un envío exprés",
+        "Se garantiza 100% calidad TOP QUALITY, pero depende de los gustos del cliente otras calidades, tenga en cuenta que mientras menor calidad menor precio",
+        "Podrás acceder con un 10% a la membresía elite si realiza un pedido de no menos de 8 productos"
+      ]
+    },
+    "SECOND_PLAN": {
+      "TITLE": "MEMBRESÍA PRO",
+      "CONTENT": "La membresía PRO está pensada para aquellas personas que deseen un margen de ganancia más amplio para que pueda comprar productos sin comisiones adicionales siempre de la mano de nuestros profesionales; obtendrá precios entre los 45$ y 75$ en marcas como Adidas, Nike, Puma,\nNew Balance entre otros y de primeras marcas como Gucci, Dior, Louis Vuitton, Prada Entre 79$ y 115$, También ropa, accesorios, y complementos.",
+      "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
+      "LIST": [
+        "Negociaremos los precios por ti",
+        "Podrás comprar un máximo de 20 Zapatillas a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
+        "Puedes adquirir  la membresía en cualquier país nuestro equipo de trabajo es bilingüe, no será un problema a la hora de la comunicación",
+        "Emprenderás tu propio negocio siempre de la mano de profesionales asesorando el tiempo que necesites y en cada paso que des en este mundo de las importaciones",
+        "Tu membresía dura hasta que agotes tus 20 primeras compras, el retorno de la inversión se verá compensado casi de inmediato ya que los márgenes de ganancia están sobre el 70%, luego vuelves a reinvertir en la membresía si así lo quisieras o pasar al siguiente nivel la membresía elite",
+        "Con la membresía PRO, NO TIENES ACCESO A LOS PROVEEDORES, nosotros realizamos el pedido por ti, nos encargamos de todo el proceso tu solo pagas el producto",
+        "El pago de proveedores se realiza únicamente  por westerunion o moneygram, te daremos el medio de pago al momento",
+        "Para comprar a precio de fábrica y acceder a más de 30 proveedores de calidad TOP QUALITY debe adquirir la membresía ELITE"
+      ]
+    },
+    "THIRD_PLAN": {
+      "TITLE": "MEMBRESÍA ELITE",
+      "CONTENT": "La membresía ELITE te da acceso a todos los fabricantes y proveedores Chinos de zapatillas, ropa, gafas, complementos deportivos, componentes, relojes, y accesorios TOP QUALITY es por mucho la mejor opción. No es un sistema mágico en ningún sentido el cobro de la membresía es simplemente para separar a los emprendedores de los que no; Es por ello que hemos creado esta asesoría para personas comprometidas con el futuro de las negociaciones, visionarios y con deseos de superación para que de la mano de nuestro equipo logres en poco tiempo y desde casa tu independencia financiera. Te brindaremos toda la ayuda y soporte para que no cometas errores a la hora de emprender, inicias tu negocio con todos los conocimientos que te proporcionaremos, así podrá comenzar desde casa o cualquier lugar del mundo asesorados por expertos en importaciones.",
+      "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
+      "LIST": [
+        "Tendrá acceso a una asesoría personalizada con nuestro equipo de trabajo",
+        "Tendrá acceso a más de 30 proveedores y fabricantes de las mejores marcas, con los mejores estándares de seguridad con los que venimos trabajando desde hace varios años para nuestros clientes",
+        "Obtendrá todas las actualizaciones de productos, (venta caliente) productos con alto nivel de venta.",
+        "Le enseñaremos los métodos de negociación para que puedas realizar la mejor compra",
+        "Podrá comprar las cantidades que quiera  no existe orden mínima y las veces que desee",
+        "Capacidad económica para realizar un pago único de ($) tus proveedores quedarán en tus registros o nube para que los puedas tener de por vida"
+      ]
+    }
   }
 }

@@ -21,6 +21,7 @@ import {ModalModule} from 'ngx-bootstrap/modal';
 import {ModalViewComponent} from './components/modal-view/modal-view.component';
 import {LottieModule} from 'ngx-lottie';
 import player from 'lottie-web';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 export function playerFactory() {
   return player;
@@ -48,6 +49,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   imports: [
     BrowserModule,
     HttpClientModule,
+    FontAwesomeModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
       defaultLanguage: 'es',

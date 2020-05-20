@@ -102,3 +102,6 @@ Author: Leifer Mendez
 .modal-backdrop {
   background-color: #DFDFE0;
 }
+:root{
+  --images-background: none
+}
