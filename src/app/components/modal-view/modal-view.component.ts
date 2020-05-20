@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AnimationOptions} from 'ngx-lottie';
+import {AnimationItem} from 'lottie-web';
 
 @Component({
   selector: 'app-modal-view',
@@ -6,10 +8,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal-view.component.css']
 })
 export class ModalViewComponent implements OnInit {
+  options: AnimationOptions = {
+    path: '/assets/images/plan-1.json',
+  };
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
+  }
+
+
+  animationCreated(animationItem: AnimationItem): void {
+    console.log(animationItem);
   }
 
 }

@@ -12,13 +12,19 @@ import {SectionThreeComponent} from './components/section-three/section-three.co
 import {SectionFourthComponent} from './components/section-fourth/section-fourth.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-import { AppRoutingModule } from './app-routing.module';
+import {AppRoutingModule} from './app-routing.module';
 import {RouterModule} from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
+import {HomeComponent} from './pages/home/home.component';
 import {ReadMoreDirective} from './read-more.directive';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ModalModule} from 'ngx-bootstrap/modal';
-import { ModalViewComponent } from './components/modal-view/modal-view.component';
+import {ModalViewComponent} from './components/modal-view/modal-view.component';
+import {LottieModule} from 'ngx-lottie';
+import player from 'lottie-web';
+
+export function playerFactory() {
+  return player;
+}
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -51,6 +57,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
+    LottieModule.forRoot({player: playerFactory}),
     ModalModule.forRoot(),
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     AppRoutingModule,

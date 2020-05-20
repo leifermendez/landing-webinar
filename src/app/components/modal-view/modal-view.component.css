@@ -1,0 +1,20 @@
+.section-image {
+  background-image: url("https://images.unsplash.com/photo-1536940135352-b4b3875df888?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-text {
+  color: #302f2f;
+  font-size: .85rem;
+  line-height: 1.55rem;
+  text-rendering: optimizeLegibility;
+}
+
+.content-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

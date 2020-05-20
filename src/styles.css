@@ -91,9 +91,14 @@ Author: Leifer Mendez
   margin-top: 4%;
 }
 
-.modal-content {
-
+.modal-light-plan .modal-content {
+  min-height: 30rem;
   border-radius: 0px;
-  border: solid 1px white;
-  padding: .8rem;
+  border: solid 0px white;
+  padding: 0;
+  box-shadow: 0 0 38px rgba(83, 83, 83, 0.41);
+}
+
+.modal-backdrop {
+  background-color: #DFDFE0;
 }
