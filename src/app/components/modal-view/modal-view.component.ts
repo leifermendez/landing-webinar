@@ -49,7 +49,7 @@ export class ModalViewComponent implements OnInit {
   };
 
   constructor(private translate: TranslateService,
-              private bsModalRef: BsModalRef) {
+              public bsModalRef: BsModalRef) {
   }
 
   ngOnInit(): void {
