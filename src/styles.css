@@ -3,7 +3,7 @@ Custom style
 Author: Leifer Mendez
  */
 
-.button-over-zoom:hover{
+.button-over-zoom:hover {
   transform: scale(1.1);
   -webkit-transition: all 200ms ease-out;
   -moz-transition: all 200ms ease-out;
@@ -11,12 +11,13 @@ Author: Leifer Mendez
   transition: all 200ms ease-out;
 }
 
-.img-block{
+.img-block {
   height: 515px;
   object-fit: cover;
+  box-shadow: 0 0 20px rgba(158, 158, 158, 0.66);
 }
 
-.less-text-more-1{
+.less-text-more-1 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -24,7 +25,7 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.less-text-more-2{
+.less-text-more-2 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -32,7 +33,7 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.less-text-more-3{
+.less-text-more-3 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -40,7 +41,7 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.less-text-more-4{
+.less-text-more-4 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -48,7 +49,7 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.less-text-more-5{
+.less-text-more-5 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -56,7 +57,7 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.less-text-more-6{
+.less-text-more-6 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -64,6 +65,24 @@ Author: Leifer Mendez
   -webkit-box-orient: vertical;
 }
 
-.read-more-link{
+.read-more-link {
   cursor: pointer;
+}
+
+.badge-free {
+  background-color: #27ae60;
+  padding: 0 .3rem;
+  color: white;
+  border-radius: 2px;
+}
+
+.badge-strike {
+  padding: .5rem;
+  color: gray;
+  line-height: .9rem;
+}
+
+.text-strike {
+  font-size: .8rem;
+  text-decoration: line-through;
 }

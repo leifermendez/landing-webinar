@@ -4,9 +4,10 @@
   },
   "GENERAL": {
     "VIEW_MORE": "Ver más",
+    "VIEW_LESS": "Ver menos",
     "FACEBOOK": "Facebook",
     "TWITTER": "Twitter",
-    "BEHANCE": "Behance",
+    "BEHANCE": "Más información",
     "SYMBOL": "$",
     "CURRENCY": "USD"
   },
@@ -30,25 +31,27 @@
   "BLOCK_SERVICES": {
     "TITLE": "NUESTROS SERVICIOS",
     "FIRST_PLAN": {
-      "TITLE": "MEMBRESIA FREE",
+      "TITLE": "MEMBRESIA <span class='badge-free'>FREE</span>",
       "CONTENT.ONE": "Podrás cotizar a través de nosotros un producto o varios ",
       "CONTENT.TWO": "Podrás tener acceso al catálogo",
       "CONTENT.THREE": "Podrás acceder con un 10% a la membresía elite si realiza un pedido de no menos de 8 productos",
-      "PRICE": 100
+      "PRICE": 0
     },
     "SECOND_PLAN": {
       "TITLE": "MEMBRESIA PRO",
       "CONTENT.ONE": "Podrás comprar un máximo de 20 PRODUCTOS a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
       "CONTENT.TWO": "Podra comprar las diferentes calidades incluida la TOP QUALITY",
       "CONTENT.THREE": "Negociaremos los precios y garantizaremos la compra por ti",
-      "PRICE": 100
+      "PRICE": 49,
+      "BEFORE_PRICE": 149
     },
     "THREE_PLAN": {
       "TITLE": "MEMBRESIA ELITE",
       "CONTENT.ONE": "Tendrá acceso a más de 30 proveedores y fabricantes de las mejores marcas, con los mejores estándares de seguridad con los que venimos trabajando desde hace varios años para nuestros clientes",
       "CONTENT.TWO": "Tendrá acceso a una asesoría personalizada con nuestro equipo de trabajo ",
       "CONTENT.THREE": "Le enseñaremos los métodos de negociación para que puedas realizar la mejor compra",
-      "PRICE": 100
+      "PRICE": 350,
+      "BEFORE_PRICE": 599
     }
   },
   "BLOCK_TEAM": {
@@ -59,7 +62,7 @@
     "TITLE": "Let’s talk",
     "CONTENT": "At Explose, it’s always storytelling time. Swing by & share yours..",
     "ADDRESS": "9010 Varna, Bulgaria, <br> Breeze Borough, <br> Saint Nicholas, 26",
-    "PHONE": "UK: +44 567 637 0000 <br> hey@costomarl.com"
+    "PHONE": "UK: +44 567 637 0000 <br> tuenlacedirecto@gmail.com"
   },
   "FOOTER": {
     "COPY": "© <a href=\"https://www.bootstrapdash.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-reset\">BootstrapDash</a> 2020. All rights reserved.",
