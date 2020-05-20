@@ -25,6 +25,8 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/assets/css/style.css",
               "src/assets/css/animate.min.css",
               "src/styles.css"
@@ -101,6 +103,8 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -132,6 +136,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "landing-webinar"
 }

@@ -17,6 +17,8 @@ import {RouterModule} from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import {ReadMoreDirective} from './read-more.directive';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {ModalModule} from 'ngx-bootstrap/modal';
+import { ModalViewComponent } from './components/modal-view/modal-view.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -34,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SectionThreeComponent,
     SectionFourthComponent,
     HomeComponent,
-    ReadMoreDirective
+    ReadMoreDirective,
+    ModalViewComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +51,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
+    ModalModule.forRoot(),
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     AppRoutingModule,
     RouterModule

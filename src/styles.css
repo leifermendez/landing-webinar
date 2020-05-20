@@ -86,3 +86,14 @@ Author: Leifer Mendez
   font-size: .8rem;
   text-decoration: line-through;
 }
+
+.modal-light-plan {
+  margin-top: 4%;
+}
+
+.modal-content {
+
+  border-radius: 0px;
+  border: solid 1px white;
+  padding: .8rem;
+}
