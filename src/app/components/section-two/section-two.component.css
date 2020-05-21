@@ -12,7 +12,9 @@
   background-color: #fffefe;
   border: solid 1px #ffe6e4;
 }
-
+.service-section .plan{
+  cursor: pointer;
+}
 .service-section .list-group-item {
   background-color: transparent;
 }

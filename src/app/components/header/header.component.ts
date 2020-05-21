@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {transition, trigger, style, animate} from '@angular/animations';
 
@@ -20,6 +20,7 @@ import {transition, trigger, style, animate} from '@angular/animations';
 
 })
 export class HeaderComponent implements OnInit {
+  @Input() carousel = true;
   public content = {
     firstSecond: null,
     secondSecond: null,

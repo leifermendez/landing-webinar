@@ -22,6 +22,7 @@ import {ModalViewComponent} from './components/modal-view/modal-view.component';
 import {LottieModule} from 'ngx-lottie';
 import player from 'lottie-web';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {SharedModule} from './shared/shared.module';
 
 export function playerFactory() {
   return player;
@@ -36,19 +37,18 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     FooterComponent,
     SectionOneComponent,
     SectionTwoComponent,
     SectionThreeComponent,
     SectionFourthComponent,
     HomeComponent,
-    ReadMoreDirective,
     ModalViewComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    SharedModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
@@ -66,6 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     RouterModule
   ],
   providers: [],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {

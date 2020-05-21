@@ -2,7 +2,7 @@
   <div class="container d-flex flex-wrap justify-content-lg-between align-items-center">
     <p class="mb-0 footer-text" [innerHTML]="'FOOTER.COPY'|translate"></p>
     <nav class="footer-nav nav">
-      <a href="#!" class="nav-link">{{"FOOTER.TERMS" | translate}}</a>
+      <a [routerLink]="['/','single','terminos-y-condiciones']" class="nav-link">{{"FOOTER.TERMS" | translate}}</a>
       <a href="#!" class="nav-link">{{"FOOTER.PRIVACY" | translate}}</a>
       <a href="#!" class="nav-link">{{"FOOTER.COOKIE" | translate}}</a>
     </nav>
