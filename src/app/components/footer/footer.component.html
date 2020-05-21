@@ -1,10 +1,17 @@
 <footer class="hiro-footer wow fadeInUp">
   <div class="container d-flex flex-wrap justify-content-lg-between align-items-center">
     <p class="mb-0 footer-text" [innerHTML]="'FOOTER.COPY'|translate"></p>
+    <div class="d-flex justify-content-around">
+      <img class="logo-wu" src="../../../assets/images/logo-wu.png" alt="Wester Union">
+      <img class="logo-wu" src="../../../assets/images/logo-money.png" alt="MoneyGram">
+      <img class="logo-wu" src="../../../assets/images/logo-paypal.png" alt="Paypal">
+      <img class="logo-wu" src="../../../assets/images/logo-zelle.png" alt="Zelle">
+      <img class="logo-wu" src="../../../assets/images/logo-transfer.png" alt="TransferWise">
+    </div>
     <nav class="footer-nav nav">
       <a [routerLink]="['/','single','terminos-y-condiciones']" class="nav-link">{{"FOOTER.TERMS" | translate}}</a>
-      <a href="#!" class="nav-link">{{"FOOTER.PRIVACY" | translate}}</a>
-      <a href="#!" class="nav-link">{{"FOOTER.COOKIE" | translate}}</a>
+      <a [routerLink]="['/','single','politica-de-privacidad']" class="nav-link">{{"FOOTER.PRIVACY" | translate}}</a>
+      <a [routerLink]="['/','single','politicas-de-cookies']" class="nav-link">{{"FOOTER.COOKIE" | translate}}</a>
     </nav>
   </div>
 </footer>

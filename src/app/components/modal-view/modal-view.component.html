@@ -2,7 +2,7 @@
   <div class="icon-close" (click)="bsModalRef.hide()">
     <fa-icon [icon]="faTimes" size="lg"></fa-icon>
   </div>
-  <div class="col-8 p-4">
+  <div class="col-sm-12 col-md-8 col-xl-8 p-4">
     <h3>{{data?.TITLE}} <span *ngIf="images[section]?.ICON">
       <fa-icon [style.color]="'orange'" [icon]="images[section]?.ICON"></fa-icon>
     </span></h3>
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="col-4 section-image">
+  <div class="col-4 section-image d-none d-sm-block d-md-block">
     <!--    <ng-lottie-->
     <!--      width="200px"-->
     <!--      height="200px"-->

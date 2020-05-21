@@ -5,6 +5,7 @@ import {BlogRoutingModule} from './blog-routing.module';
 import {SingleComponent} from './pages/single/single.component';
 import {HeaderComponent} from '../components/header/header.component';
 import {SharedModule} from '../shared/shared.module';
+import {MarkdownModule} from 'ngx-markdown';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import {SharedModule} from '../shared/shared.module';
   imports: [
     CommonModule,
     BlogRoutingModule,
-    SharedModule
+    SharedModule,
+    MarkdownModule.forRoot(),
   ]
 })
 export class BlogModule {

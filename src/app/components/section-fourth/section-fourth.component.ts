@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {faFacebookF, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-section-fourth',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section-fourth.component.css']
 })
 export class SectionFourthComponent implements OnInit {
+  faFacebook = faFacebookF;
+  faInstagram = faInstagram;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

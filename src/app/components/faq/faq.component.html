@@ -1,0 +1,40 @@
+<section class="hiro-section faq-section" id="services">
+  <div class="container">
+    <div class="service-section">
+      <h2 class="section-title career-section-title">{{ "FAQ.TITLE" | translate}}</h2>
+      <div class="row">
+        <div class="col-md-12 mb-4 mb-md-0 wow fadeInUp plan plan-free" *ngFor="let question of data">
+          <div class="d-flex justify-content-between">
+            <h5 class="question link-hover-fx link-light"
+                (click)="isCollapsed = !isCollapsed">{{question?.TITLE}}</h5>
+            <div>
+              <fa-icon *ngIf="isCollapsed" [icon]="faPlus"></fa-icon>
+              <fa-icon *ngIf="!isCollapsed" [icon]="faMinus"></fa-icon>
+            </div>
+          </div>
+
+          <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+            <div class="answer">
+              {{question?.ANSWER}}
+            </div>
+          </div>
+
+          <!--          <ul class="service-list list-group list-group-flush">-->
+          <!--            <li class="list-group-item">{{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.ONE" | translate}}</li>-->
+          <!--            <li class="list-group-item">{{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.TWO" | translate}}</li>-->
+          <!--            <li class="list-group-item">{{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.THREE" | translate}}</li>-->
+          <!--          </ul>-->
+          <!--          <div>-->
+          <!--            <button-->
+          <!--              class="hiro-btn-outline button-over-zoom mt-4">-->
+          <!--              {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.FIRST_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}-->
+          <!--            </button>-->
+          <!--          </div>-->
+          <!--          <div class="pt-2 pl-1">-->
+          <!--            <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.VIEW_MORE" |translate}}</button>-->
+          <!--          </div>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,5 +1,7 @@
 <app-header [carousel]="false" id="header"></app-header>
-
+<div class="container mt-4 p-4">
+  <markdown class="variable-binding" [data]="single.data"></markdown>
+</div>
 <!-- SECTION ONE -->
 <!--<app-section-one id="one"></app-section-one>-->
 
@@ -11,8 +13,9 @@
 <!--&lt;!&ndash; SECTION THREE &ndash;&gt;-->
 <!--<app-section-three id="three"></app-section-three>-->
 
-<!--&lt;!&ndash; SECTION FOURTH &ndash;&gt;-->
-<!--<app-section-fourth id="forth"></app-section-fourth>-->
+<!-- SECTION FOURTH -->
 
-<!--&lt;!&ndash; FOOTER &ndash;&gt;-->
-<!--<app-footer></app-footer>-->
+<app-section-fourth id="forth"></app-section-fourth>
+
+<!-- FOOTER -->
+<app-footer></app-footer>

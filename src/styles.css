@@ -105,3 +105,9 @@ Author: Leifer Mendez
 :root{
   --images-background: none
 }
+a{
+  color: #dc4d3e;
+}
+.text-black{
+  color:#000 !important;
+}

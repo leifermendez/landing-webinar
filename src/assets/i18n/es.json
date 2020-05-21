@@ -30,6 +30,35 @@
     "SECOND_SENTENCE": "Al tener acceso a nuestros proveedores, obtendras una gran ventaja para iniciar tu emprendimiento, estarias ahorrando tiempo y dinero ademas del crecimiento y la expansión de tu negocio.",
     "THIRD_SENTENCE": "Con nuestra formacion te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
   },
+  "FAQ": {
+    "TITLE": "PREGUNTAS FRECUENTES",
+    "QUESTIONS": [
+      {
+        "TITLE": "¿Cómo puedo pagar la membresía?",
+        "ANSWER": "Aceptamos como medio de pago varias plataformas, como PayPal, Western Unión o Money Gram, TransferWise, Zelle, y con visa y master a través de Worldremit"
+      },
+      {
+        "TITLE": "¿Cómo se si me servirá la formación de la membresía a mí?",
+        "ANSWER": "Esta FORMACION está diseñado para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
+      },
+      {
+        "TITLE": "No tengo un producto que vender, ¿me sirve la formación?",
+        "ANSWER": "Por supuesto, lo bueno de este modelo de negocio es que no necesitamos disponer de inventario propio para vender productos. También te daremos todos los contactos para comprar en china con proveedores confiables y seguros."
+      },
+      {
+        "TITLE": "¿Servirá en mi país?",
+        "ANSWER": "Sí, da igual el país en el que vivas y la situación económica en la que este se encuentre, bien sea que compres para tu propio negocio o que puedas vender con el modelo de negocio a distancia."
+      },
+      {
+        "TITLE": "¿En qué moneda está el precio de la membresía?",
+        "ANSWER": "En dólares (USD), esto no te supondrá ningún problema para poder realizar el pago."
+      },
+      {
+        "TITLE": "¿Se aceptan pedidos internacionales?",
+        "ANSWER": "Sí, aceptamos pedidos de México, Guatemala, Estados Unidos, Belice, El Salvador, Nicaragua, Honduras, Panamá, Costa Rica, Venezuela, Ecuador, Paraguay, Bolivia, Chile, Argentina, Brasil, Perú Colombia, Uruguay, Republica Dominicana, Puerto rico y países miembros de la unión europea."
+      }
+    ]
+  },
   "BLOCK_SERVICES": {
     "TITLE": "NUESTROS SERVICIOS",
     "FIRST_PLAN": {
@@ -61,10 +90,10 @@
     "CONTENT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
   },
   "BLOCK_TALK": {
-    "TITLE": "Let’s talk",
-    "CONTENT": "At Explose, it’s always storytelling time. Swing by & share yours..",
-    "ADDRESS": "9010 Varna, Bulgaria, <br> Breeze Borough, <br> Saint Nicholas, 26",
-    "PHONE": "UK: +44 567 637 0000 <br> tuenlacedirecto@gmail.com"
+    "TITLE": "Cuéntame tu proyecto",
+    "CONTENT": "Somos la solución para el crecimiento de tu negocio",
+    "ADDRESS": "",
+    "PHONE": "ES: <a href='tel:+34645356542'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
   },
   "FOOTER": {
     "COPY": "© <a href=\"https://www.bootstrapdash.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-reset\">BootstrapDash</a> 2020. All rights reserved.",

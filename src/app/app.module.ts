@@ -37,11 +37,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     SectionOneComponent,
     SectionTwoComponent,
     SectionThreeComponent,
-    SectionFourthComponent,
     HomeComponent,
     ModalViewComponent
   ],

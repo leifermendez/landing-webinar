@@ -32,6 +32,7 @@
               "src/styles.css"
             ],
             "scripts": [
+              "./node_modules/marked/lib/marked.js",
               "src/assets/js/jquery.min.js",
               "src/assets/js/wow.min.js",
               "src/assets/js/popper.min.js",
