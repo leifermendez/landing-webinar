@@ -11,7 +11,8 @@
     "SYMBOL": "$",
     "CURRENCY": "USD",
     "WS": "https://wa.me/34645356542",
-    "BEFORE": "Antes"
+    "BEFORE": "Antes",
+    "LINK_INSTAGRAM": "https://www.instagram.com/tuenlacedirecto/?hl=es"
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? NOSOTROS TE ASESORAMOS!",
@@ -19,11 +20,11 @@
   },
   "SECTION_TWO": {
     "FIRST_SENTENCE": "SOMOS EL ENLACE CON CHINA PARA TUS COMPRAS",
-    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que no saben  por dónde comenzar; Daremos los pasos contigo para que aprendas a  importar  desde china sin necesidad de intermediarios ni comisiones absurdas.Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiara y ayudara en todo lo relacionado a importar desde China a tu país o a cualquier otro, los mejores productos de calidad TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, camisetas deportivas, accesorios para teléfonos, componentes electrónicos y muchos mas productos."
+    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que no saben por dónde comenzar; Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios ni comisiones absurdas.Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiara y ayudara en todo lo relacionado a importar desde China a tu país o a cualquier otro, los mejores productos de calidad TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, camisetas deportivas, accesorios para teléfonos, componentes electrónicos y muchos mas productos."
   },
   "SECTION_THREE": {
     "FIRST_SENTENCE": "EQUIPO Y LOGISTICA",
-    "SECOND_SENTENCE": " Nuestra sede logística se encuentra en España y Holanda con profesionales con mas de 5 años de experiencia en mundo de las importaciones,Formacion, marketing y desarrollo web,Contamos con los mejores proveedores de la cuidad (China Guangzhou)para que tus compras sean seguras y confiables."
+    "SECOND_SENTENCE": " Nuestra sede logística se encuentra en España y Holanda con profesionales con mas de 5 años de experiencia en mundo de las importaciones, formación empresarial , marketing y desarrollo web,Contamos con los mejores proveedores de la cuidad (China Guangzhou)para que tus compras sean seguras y confiables."
   },
   "BLOCK_ONE": {
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
@@ -35,11 +36,11 @@
     "QUESTIONS": [
       {
         "TITLE": "¿Cómo puedo pagar la membresía?",
-        "ANSWER": "Aceptamos como medio de pago varias plataformas, como PayPal, Western Unión o Money Gram, TransferWise, Zelle, y con visa y master a través de Worldremit"
+        "ANSWER": "Aceptamos como medio de pago varias plataformas, como PayPal, Western Unión o Money Gram, TransferWise, Zelle, Visa y Mastercard a través de Worldremit"
       },
       {
-        "TITLE": "¿Cómo se si me servirá la formación de la membresía a mí?",
-        "ANSWER": "Esta FORMACION está diseñado para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
+        "TITLE": "¿Cómo se si me servirá esta formacion ami?",
+        "ANSWER": "Esta formacion está diseñada para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
       },
       {
         "TITLE": "No tengo un producto que vender, ¿me sirve la formación?",
@@ -55,7 +56,7 @@
       },
       {
         "TITLE": "¿Se aceptan pedidos internacionales?",
-        "ANSWER": "Sí, aceptamos pedidos de México, Guatemala, Estados Unidos, Belice, El Salvador, Nicaragua, Honduras, Panamá, Costa Rica, Venezuela, Ecuador, Paraguay, Bolivia, Chile, Argentina, Brasil, Perú Colombia, Uruguay, Republica Dominicana, Puerto rico y países miembros de la unión europea."
+        "ANSWER": "Sí, aceptamos pedidos de México, Guatemala, Estados Unidos, Belice, El Salvador, Nicaragua, Honduras, Panamá, Costa Rica, Venezuela, Ecuador, Paraguay, Bolivia, Chile, Argentina, Brasil, Perú, Colombia, Uruguay, Republica Dominicana, Puerto rico y países miembros de la unión europea."
       }
     ]
   },
@@ -63,24 +64,24 @@
     "TITLE": "NUESTROS SERVICIOS",
     "FIRST_PLAN": {
       "TITLE": "MEMBRESIA <span class='badge-free'>FREE</span>",
-      "CONTENT.ONE": "Podrás cotizar a través de nosotros un producto o varios ",
-      "CONTENT.TWO": "Podrás tener acceso al catálogo",
-      "CONTENT.THREE": "Podrás acceder con un 10% a la membresía elite si realiza un pedido de no menos de 8 productos",
+      "CONTENT.ONE": "Realizamos la compra por ti ",
+      "CONTENT.TWO": "Supervisión y seguimiento de tu producto",
+      "CONTENT.THREE": "20% de descuento en la membresia Elite por la compra de 8 productos",
       "PRICE": 0
     },
     "SECOND_PLAN": {
       "TITLE": "MEMBRESIA PRO",
-      "CONTENT.ONE": "Podrás comprar un máximo de 20 PRODUCTOS a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
-      "CONTENT.TWO": "Podra comprar las diferentes calidades incluida la TOP QUALITY",
-      "CONTENT.THREE": "Negociaremos los precios y garantizaremos la compra por ti",
+      "CONTENT.ONE": "Precios de fábrica",
+      "CONTENT.TWO": "Cantidades ilimitadas",
+      "CONTENT.THREE": "Todas las calidades disponibles",
       "PRICE": 49,
       "BEFORE_PRICE": 149
     },
     "THREE_PLAN": {
       "TITLE": "MEMBRESIA ELITE",
-      "CONTENT.ONE": "Tendrá acceso a más de 30 proveedores y fabricantes de las mejores marcas, con los mejores estándares de seguridad con los que venimos trabajando desde hace varios años para nuestros clientes",
-      "CONTENT.TWO": "Tendrá acceso a una asesoría personalizada con nuestro equipo de trabajo ",
-      "CONTENT.THREE": "Le enseñaremos los métodos de negociación para que puedas realizar la mejor compra",
+      "CONTENT.ONE": "Asesoria personalizada",
+      "CONTENT.TWO": "Acceso a mas de 30 Proveedores",
+      "CONTENT.THREE": "Productos calidad Top Quality",
       "PRICE": 350,
       "BEFORE_PRICE": 599
     }
@@ -96,7 +97,7 @@
     "PHONE": "ES: <a href='tel:+34645356542'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
   },
   "FOOTER": {
-    "COPY": "© <a href=\"https://www.bootstrapdash.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-reset\">BootstrapDash</a> 2020. All rights reserved.",
+    "COPY": "©2020. All rights reserved.",
     "TERMS": "Terms and Conditions",
     "PRIVACY": "Privacy Policy",
     "COOKIE": "Cookie Policy"
@@ -104,43 +105,42 @@
   "MODAL_PLAN": {
     "FIRST_PLAN": {
       "TITLE": "MEMBRESÍA PERSONAL FREE",
-      "CONTENT": "Realizamos la compra por el cliente nosotros cotizamos el producto de tu preferencia que podrás ver en nuestro catálogo y compramos por ti, hacemos la gestión de empaquetado y logística de envío a tu país por medio de correo nacional o Courier privado de aseguraremos de que la calidad sea siempre la mejor con la supervisión y seguimiento que conlleva nuestros lazos con los fabricantes Chinos",
+      "CONTENT": "Realizamos la compra por ti, nosotros cotizamos el producto de tu preferencia que podrás ver en nuestro catálogo, hacemos la gestión de empaquetado y logística de envío a tu país por medio de correo nacional o Courier privado te aseguraremos de que la calidad sea siempre la mejor con la supervisión y seguimiento que conlleva nuestros lazos con los fabricantes Chinos",
       "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
       "LIST": [
-        "Podrás cotizar a través de nosotros un producto o varios",
         "Podrás tener acceso al catálogo",
+        "Podrás cotizar a través de nosotros un producto o varios",
         "Los pagos a nuestros proveedores se realizan por western unión o moneygram",
-        "Depende de la cantidad de la Compra, el pago del envió corre por cuenta del cliente si quisiera un envío exprés",
-        "Se garantiza 100% calidad TOP QUALITY, pero depende de los gustos del cliente otras calidades, tenga en cuenta que mientras menor calidad menor precio",
-        "Podrás acceder con un 10% a la membresía elite si realiza un pedido de no menos de 8 productos"
+        "Depende de la cantidad de la Compra, el pago del envió corre por cuenta del cliente",
+        "Podrás acceder con un 20% de descuento a la membresía Elite si realiza un pedido de no menos de 8 productos "
       ]
     },
     "SECOND_PLAN": {
       "TITLE": "MEMBRESÍA PRO",
-      "CONTENT": "La membresía PRO está pensada para aquellas personas que deseen un margen de ganancia más amplio para que pueda comprar productos sin comisiones adicionales siempre de la mano de nuestros profesionales; obtendrá precios entre los 45$ y 75$ en marcas como Adidas, Nike, Puma,\nNew Balance entre otros y de primeras marcas como Gucci, Dior, Louis Vuitton, Prada Entre 79$ y 115$, También ropa, accesorios, y complementos.",
+      "CONTENT": "La membresía PRO está pensada para aquellas personas que deseen un margen de ganancia más amplio, podrán comprar productos sin comisiones adicionales siempre de la mano de nuestros profesionales; obtendrá precios entre los 45$ y 75$ en marcas como Adidas, Nike, Puma, New Balance entre otros y de primeras marcas como Gucci, Dior, Louis Vuitton, Prada Entre 79$ y 115$, También ropa, accesorios, y complementos.",
       "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
       "LIST": [
         "Negociaremos los precios por ti",
-        "Podrás comprar un máximo de 20 Zapatillas a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
-        "Puedes adquirir  la membresía en cualquier país nuestro equipo de trabajo es bilingüe, no será un problema a la hora de la comunicación",
-        "Emprenderás tu propio negocio siempre de la mano de profesionales asesorando el tiempo que necesites y en cada paso que des en este mundo de las importaciones",
-        "Tu membresía dura hasta que agotes tus 20 primeras compras, el retorno de la inversión se verá compensado casi de inmediato ya que los márgenes de ganancia están sobre el 70%, luego vuelves a reinvertir en la membresía si así lo quisieras o pasar al siguiente nivel la membresía elite",
+        "Podrás comprar las cantidades que quieras ",
+        "Podrás escoger entre la variedad de calidades disponibles",
+        "Podrás comprar a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
+        "Puedes adquirir  la membresía en cualquier país, nuestro equipo de trabajo es bilingüe, no será un problema a la hora de la comunicación ",
         "Con la membresía PRO, NO TIENES ACCESO A LOS PROVEEDORES, nosotros realizamos el pedido por ti, nos encargamos de todo el proceso tu solo pagas el producto",
-        "El pago de proveedores se realiza únicamente  por westerunion o moneygram, te daremos el medio de pago al momento",
+        "El pago de proveedores se realiza únicamente  por western unión o moneygram, te daremos el medio de pago al momento",
         "Para comprar a precio de fábrica y acceder a más de 30 proveedores de calidad TOP QUALITY debe adquirir la membresía ELITE"
       ]
     },
     "THIRD_PLAN": {
       "TITLE": "MEMBRESÍA ELITE",
-      "CONTENT": "La membresía ELITE te da acceso a todos los fabricantes y proveedores Chinos de zapatillas, ropa, gafas, complementos deportivos, componentes, relojes, y accesorios TOP QUALITY es por mucho la mejor opción. No es un sistema mágico en ningún sentido el cobro de la membresía es simplemente para separar a los emprendedores de los que no; Es por ello que hemos creado esta asesoría para personas comprometidas con el futuro de las negociaciones, visionarios y con deseos de superación para que de la mano de nuestro equipo logres en poco tiempo y desde casa tu independencia financiera. Te brindaremos toda la ayuda y soporte para que no cometas errores a la hora de emprender, inicias tu negocio con todos los conocimientos que te proporcionaremos, así podrá comenzar desde casa o cualquier lugar del mundo asesorados por expertos en importaciones.",
+      "CONTENT": "La membresía ELITE te da acceso a todos los fabricantes y proveedores Chinos de zapatillas, ropa, gafas, complementos deportivos, componentes electronicos, relojes, y accesorios TOP QUALITY es por mucho la mejor opción. No es un sistema mágico en ningún sentido el cobro de la membresía es simplemente para separar a los emprendedores de los que no; Es por ello que hemos creado esta formación para personas comprometidas con el futuro de las negociaciones, visionarios y con deseos de superación para que de la mano de nuestro equipo logres en poco tiempo y desde casa tu independencia financiera. Te brindaremos toda la ayuda y soporte para que no cometas errores a la hora de emprender, inicias tu negocio con todos los conocimientos que te proporcionaremos, así podrá comenzar desde cualquier lugar del mundo asesorados por expertos en importaciones.",
       "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
       "LIST": [
-        "Tendrá acceso a una asesoría personalizada con nuestro equipo de trabajo",
+        "Tendrá acceso a una asesoría personalizada con nuestro equipo de trabajo, 2 sesiones de 60 minutos cuando tú lo prefieras",
         "Tendrá acceso a más de 30 proveedores y fabricantes de las mejores marcas, con los mejores estándares de seguridad con los que venimos trabajando desde hace varios años para nuestros clientes",
         "Obtendrá todas las actualizaciones de productos, (venta caliente) productos con alto nivel de venta.",
         "Le enseñaremos los métodos de negociación para que puedas realizar la mejor compra",
-        "Podrá comprar las cantidades que quiera  no existe orden mínima y las veces que desee",
-        "Capacidad económica para realizar un pago único de ($) tus proveedores quedarán en tus registros o nube para que los puedas tener de por vida"
+        "Podrá comprar las cantidades que quiera,no existe orden mínima y las veces que desee",
+        "Capacidad económica para realizar un pago único de 350$, tus proveedores quedarán en tus registros o nube para que los puedas tener de por vida"
       ]
     }
   }
