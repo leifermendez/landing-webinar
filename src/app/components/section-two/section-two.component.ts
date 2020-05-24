@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {BsModalRef, BsModalService} from 'ngx-bootstrap/modal';
 import {ModalViewComponent} from '../modal-view/modal-view.component';
+import {faCheck, faTimes, faCrown, faAward} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-section-two',
@@ -9,7 +10,9 @@ import {ModalViewComponent} from '../modal-view/modal-view.component';
 })
 export class SectionTwoComponent implements OnInit {
   bsModalRef: BsModalRef;
-
+  faAward = faAward;
+  faCheck = faCheck;
+  faCrown = faCrown;
   constructor(private modalService: BsModalService) {
   }
 

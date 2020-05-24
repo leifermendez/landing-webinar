@@ -12,15 +12,16 @@
     "CURRENCY": "USD",
     "WS": "https://wa.me/34645356542",
     "BEFORE": "Antes",
+    "LINK_FB": "https://www.facebook.com/tuenlacedirecto/",
     "LINK_INSTAGRAM": "https://www.instagram.com/tuenlacedirecto/?hl=es"
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? NOSOTROS TE ASESORAMOS!",
-    "SECOND_SENTENCE": "Te asesoraremos y te daremos acceso a nuestros proveedores chinos y a su inventario de fábrica, podrás emprender tu propio negocio de la mano de profesionales que te guiaran para comprar grandes marcas hasta por un 70% de descuento de su precio; Nosotros le capacitamos y le ofrecemos toda nuestra experiencia en el negocio para que no cometa los errores y se vea perjudicado desde su comienzo como emprendedor , te enseñaremos paso a paso cómo se debe importar desde China correctamente y le apoyaremos mientras va tomando confianza en el negocio."
+    "SECOND_SENTENCE": "Te daremos acceso a nuestros proveedores chinos y a su inventario de fábrica, podrás emprender tu propio negocio de la mano de profesionales que te guiaran para comprar grandes marcas hasta por un 70% de descuento; Nosotros le capacitamos y le ofrecemos toda nuestra experiencia en el negocio para que no cometa los errores y se vea perjudicado desde su comienzo como emprendedor , te enseñaremos paso a paso cómo se debe importar desde China correctamente y le apoyaremos mientras va tomando confianza en el negocio."
   },
   "SECTION_TWO": {
     "FIRST_SENTENCE": "SOMOS EL ENLACE CON CHINA PARA TUS COMPRAS",
-    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que no saben por dónde comenzar; Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios ni comisiones absurdas.Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiara y ayudara en todo lo relacionado a importar desde China a tu país o a cualquier otro, los mejores productos de calidad TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, camisetas deportivas, accesorios para teléfonos, componentes electrónicos y muchos mas productos."
+    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que no saben por dónde comenzar; Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios. Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiara en todo lo relacionado a importar desde China, los mejores productos de calidad TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, camisetas deportivas, accesorios para teléfonos, componentes electrónicos y muchos mas productos."
   },
   "SECTION_THREE": {
     "FIRST_SENTENCE": "EQUIPO Y LOGISTICA",
@@ -39,7 +40,7 @@
         "ANSWER": "Aceptamos como medio de pago varias plataformas, como PayPal, Western Unión o Money Gram, TransferWise, Zelle, Visa y Mastercard a través de Worldremit"
       },
       {
-        "TITLE": "¿Cómo se si me servirá esta formacion ami?",
+        "TITLE": "¿Cómo se si me servirá esta formacion a mi?",
         "ANSWER": "Esta formacion está diseñada para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
       },
       {
