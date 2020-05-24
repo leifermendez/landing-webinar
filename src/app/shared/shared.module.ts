@@ -9,6 +9,11 @@ import {SectionFourthComponent} from '../components/section-fourth/section-fourt
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {FaqComponent} from '../components/faq/faq.component';
 import {CollapseModule} from 'ngx-bootstrap/collapse';
+import {SectionThreeComponent} from '../components/section-three/section-three.component';
+import {SectionOneComponent} from '../components/section-one/section-one.component';
+import {SectionTwoComponent} from '../components/section-two/section-two.component';
+import {LoginBLockComponent} from '../components/login-block/login-block.component';
+import {RegisterBlockComponent} from '../components/register-block/register-block.component';
 
 
 @NgModule({
@@ -17,7 +22,12 @@ import {CollapseModule} from 'ngx-bootstrap/collapse';
     ReadMoreDirective,
     FooterComponent,
     FaqComponent,
-    SectionFourthComponent
+    SectionOneComponent,
+    SectionTwoComponent,
+    SectionFourthComponent,
+    SectionThreeComponent,
+    LoginBLockComponent,
+    RegisterBlockComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +38,12 @@ import {CollapseModule} from 'ngx-bootstrap/collapse';
   ],
   exports: [HeaderComponent,
     FooterComponent,
+    SectionOneComponent,
+    SectionTwoComponent,
     SectionFourthComponent,
+    SectionThreeComponent,
+    LoginBLockComponent,
+    RegisterBlockComponent,
     FaqComponent]
 })
 export class SharedModule {

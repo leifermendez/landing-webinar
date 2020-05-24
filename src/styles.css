@@ -2,7 +2,9 @@
 Custom style
 Author: Leifer Mendez
  */
-
+body{
+  font-family: "Poppins", sans-serif;
+}
 .button-over-zoom:hover {
   transform: scale(1.1);
   -webkit-transition: all 200ms ease-out;

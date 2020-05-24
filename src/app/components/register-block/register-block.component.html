@@ -1,0 +1,70 @@
+<section class="bg-white hiro-section section-login" id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 wow fadeInUp">
+        <form autocomplete="nope" spellcheck="false" class="block-form">
+          <div class="p-1 text-center">
+            <button class="btn btn-outline-light btn-login-google btn-block pl-4 pr-4">
+              <fa-icon [icon]="faGoogle"></fa-icon>
+              <span class="pl-2">Login in with Google</span>
+            </button>
+            <button class="btn btn-outline-light btn-login-google btn-block pl-4 mt-4 pr-4">
+              <fa-icon [icon]="faFacebookF"></fa-icon>
+              <span class="pl-2">Login in with Google</span>
+            </button>
+          </div>
+          <div class="separator mt-4 mb-4">Or Login with email</div>
+          <div class="form-group pt-2">
+            <!--            <label for="email_input">Email address</label>-->
+            <input autocomplete="nope" spellcheck="false" type="te" class="form-control" id="email_input"
+                   aria-describedby="emailHelp"
+                   placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group pt-3">
+            <!--            <label for="password_input">Password</label>-->
+            <input autocomplete="nope" spellcheck="false" type="passetword" class="form-control" id="password_input"
+                   placeholder="Password">
+          </div>
+          <div class="form-group pt-3">
+            <!--            <label for="password_input">Password</label>-->
+            <input autocomplete="nope" spellcheck="false" type="passetword" class="form-control" id="password_input"
+                   placeholder="Password">
+          </div>
+          <div class="form-group pt-3">
+            <!--            <label for="password_input">Password</label>-->
+            <input autocomplete="nope" spellcheck="false" type="passetword" class="form-control" id="password_input"
+                   placeholder="Password">
+          </div>
+          <div>
+            <button class="btn btn-outline-light btn-login-primary btn-block pl-4 mt-4 pr-4">
+              <span class="pr-2">Register</span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
+            </button>
+          </div>
+        </form>
+        <div class="separator mt-4 mb-4">
+          <span class="pr-2">Don't have account</span>
+          <a class="link-register"
+             [routerLink]="['','oauth','login']">Sign up</a></div>
+
+        <!--        <img src="assets/images/img_3.png" class="w-100 mb-5" alt="Digital Product Design">-->
+        <!--        <p class="section-text-light">{{"BLOCK_ONE.THIRD_SENTENCE" |translate}}</p>-->
+        <!--        <a target="_blank" [href]="'GENERAL.WS' |translate" class="hiro-btn-outline button-over-zoom">{{"GENERAL.VIEW_MORE" |translate}}</a>-->
+      </div>
+      <div class="col-md-6 pl-4 d-flex flex-column  wow fadeInUp">
+        <h2 class="section-title mb-3">{{"BLOCK_ONE.FIRST_SENTENCE" |translate}}</h2>
+        <p class="section-text-ct">{{"BLOCK_ONE.SECOND_SENTENCE" |translate}}</p>
+        <div class="list-features">
+          <ul>
+            <li *ngFor="let a of [1,1,1,1,1,1,1,1]">
+            <fa-icon [icon]="faCheck"></fa-icon>
+              <span class="pl-1">Lorem ipsum dolor.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
