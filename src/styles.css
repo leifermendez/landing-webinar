@@ -88,6 +88,13 @@ body{
   font-size: .8rem;
   text-decoration: line-through;
 }
+.modal-video-light{
+  /*max-width: 400px;*/
+}
+
+.modal-video-light .modal-content{
+  background-color: #fff
+}
 
 .modal-light-plan {
   margin-top: 4%;
@@ -113,3 +120,15 @@ a{
 .text-black{
   color:#000 !important;
 }
+.video-modal{
+  height: 35rem;
+  object-fit: cover;
+  /*background-color: white;*/
+}
+.video-modal video{
+  object-fit: cover;
+}
+.modal-video-light .modal-content .video-modal{
+  background-color: #fff
+}
+

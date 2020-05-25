@@ -49,7 +49,11 @@ import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} 
     SectionThreeComponent,
     LoginBLockComponent,
     RegisterBlockComponent,
-    FaqComponent]
+    FaqComponent,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule,]
 })
 export class SharedModule {
 }

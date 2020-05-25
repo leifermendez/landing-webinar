@@ -1,11 +1,6 @@
 <section class="team-section hiro-section">
   <div class="container">
     <div class="row">
-      <vg-player>
-        <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>
-          <source src="http://irrinews.com/wp-content/uploads/2016/11/Lorem-Ipsum-video.mp4" type="video/mp4">
-        </video>
-      </vg-player>
       <div class="col-md-5 wow fadeInUp">
         <h2 class="section-title" [innerHTML]="'BLOCK_TEAM.TITLE'|translate"></h2>
         <p class="section-text-light">{{"BLOCK_TEAM.CONTENT" | translate}}</p>
@@ -25,18 +20,20 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" (click)="open(1)">
                   <div class="team-card" data-animation="animated flipInY">
-                    <img src="assets/images/img_5.png" alt="Paulina Gayoso" class="team-member-thumbnail">
+
+                    <img src="assets/images/testimonials/img_1.jpeg" alt="Paulina Gayoso"
+                         class="team-member-thumbnail">
                     <div class="team-member-details">
-                      <h6 class="team-member-name">Paulina Gayoso</h6>
+                      <h6 class="team-member-name">Roxana Sanchez 🇨🇴</h6>
                       <p class="team-member-title">Project Manager</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" (click)="open(2)">
                   <div class="team-card featured" data-animation="animated flipInY">
-                    <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
+                    <img src="assets/images/img_5.png" alt="Edwards" class="team-member-thumbnail">
                     <div class="team-member-details">
                       <h6 class="team-member-name">Edwards</h6>
                       <p class="team-member-title">CTO, Co-Founder</p>

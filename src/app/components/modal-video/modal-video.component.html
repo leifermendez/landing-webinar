@@ -1,0 +1,48 @@
+<div class="row m-0 p-0 col-12">
+  <div class="icon-close" (click)="bsModalRef.hide()">
+    <fa-icon [icon]="faTimes" size="lg"></fa-icon>
+  </div>
+  <div class="col-sm-12 col-md-5 col-xl-5 pt-0 pb-0 pl-0 pr-0">
+    <div>
+      <div @swipe class="video-wrapper">
+        <vg-player class="video-modal">
+          <vg-controls>
+            <vg-play-pause></vg-play-pause>
+
+            <vg-scrub-bar>
+              <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+              <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+            </vg-scrub-bar>
+
+            <vg-time-display vgProperty="left" vgFormat="mm:ss"></vg-time-display>
+
+            <vg-mute></vg-mute>
+
+            <!--            <vg-fullscreen></vg-fullscreen>-->
+          </vg-controls>
+
+          <video [vgMedia]="master" #master id="masterVideo" preload="auto">
+            <source
+              [src]="data?.video"
+              type="video/mp4">
+          </video>
+
+
+        </vg-player>
+      </div>
+    </div>
+  </div>
+  <div class="col-7 section-image d-none d-sm-block d-md-block p-4">
+    <h3>{{data?.name}}</h3>
+    <h6>{{data?.name}}</h6>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolor quaerat sint vero. Aliquam dolorem
+      ducimus expedita, facilis laudantium libero molestiae officiis perferendis, quas qui saepe similique temporibus
+      velit voluptatibus!</p>
+    <!--    <ng-lottie-->
+    <!--      width="200px"-->
+    <!--      height="200px"-->
+    <!--      [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>-->
+  </div>
+
+</div>

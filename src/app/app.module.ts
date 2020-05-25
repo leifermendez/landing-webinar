@@ -19,6 +19,7 @@ import player from 'lottie-web';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {SharedModule} from './shared/shared.module';
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
+import { ModalVideoComponent } from './components/modal-video/modal-video.component';
 
 
 export function playerFactory() {
@@ -35,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    ModalViewComponent
+    ModalViewComponent,
+    ModalVideoComponent
   ],
   imports: [
     BrowserModule,
