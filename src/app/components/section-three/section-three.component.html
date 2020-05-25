@@ -1,6 +1,11 @@
 <section class="team-section hiro-section">
   <div class="container">
     <div class="row">
+      <vg-player>
+        <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>
+          <source src="http://irrinews.com/wp-content/uploads/2016/11/Lorem-Ipsum-video.mp4" type="video/mp4">
+        </video>
+      </vg-player>
       <div class="col-md-5 wow fadeInUp">
         <h2 class="section-title" [innerHTML]="'BLOCK_TEAM.TITLE'|translate"></h2>
         <p class="section-text-light">{{"BLOCK_TEAM.CONTENT" | translate}}</p>

@@ -14,6 +14,7 @@ import {SectionOneComponent} from '../components/section-one/section-one.compone
 import {SectionTwoComponent} from '../components/section-two/section-two.component';
 import {LoginBLockComponent} from '../components/login-block/login-block.component';
 import {RegisterBlockComponent} from '../components/register-block/register-block.component';
+import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 
 
 @NgModule({
@@ -34,7 +35,11 @@ import {RegisterBlockComponent} from '../components/register-block/register-bloc
     TranslateModule,
     RouterModule,
     FontAwesomeModule,
-    CollapseModule
+    CollapseModule,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule,
   ],
   exports: [HeaderComponent,
     FooterComponent,

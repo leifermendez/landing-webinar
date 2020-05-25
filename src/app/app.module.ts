@@ -18,6 +18,7 @@ import {LottieModule} from 'ngx-lottie';
 import player from 'lottie-web';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {SharedModule} from './shared/shared.module';
+import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 
 
 export function playerFactory() {
