@@ -1,3 +1,7 @@
 .team-card {
   cursor: pointer;
 }
+.team-card img{
+  height: 350px;
+  object-fit: cover;
+}
