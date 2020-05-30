@@ -2,9 +2,10 @@
 Custom style
 Author: Leifer Mendez
  */
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
+
 .button-over-zoom:hover {
   transform: scale(1.1);
   -webkit-transition: all 200ms ease-out;
@@ -88,11 +89,12 @@ body{
   font-size: .8rem;
   text-decoration: line-through;
 }
-.modal-video-light{
+
+.modal-video-light {
   /*max-width: 400px;*/
 }
 
-.modal-video-light .modal-content{
+.modal-video-light .modal-content {
   background-color: #fff
 }
 
@@ -111,24 +113,43 @@ body{
 .modal-backdrop {
   background-color: #DFDFE0;
 }
-:root{
+
+:root {
   --images-background: none
 }
-a{
+
+a {
   color: #dc4d3e;
 }
-.text-black{
-  color:#000 !important;
+
+.text-black {
+  color: #000 !important;
 }
-.video-modal{
+
+.video-modal {
   height: 35rem;
   object-fit: cover;
   /*background-color: white;*/
 }
-.video-modal video{
+
+.video-modal video {
   object-fit: cover;
 }
-.modal-video-light .modal-content .video-modal{
+
+.modal-video-light .modal-content .video-modal {
   background-color: #fff
 }
 
+.modal-video-light {
+  width: 335px;
+}
+
+.modal-video-light .tap-info {
+  background: rgba(0, 0, 0, 0.46);
+  position: absolute;
+  z-index: 9;
+  padding: .5rem;
+  font-size: .8rem;
+  font-weight: 500;
+  color: white;
+}
