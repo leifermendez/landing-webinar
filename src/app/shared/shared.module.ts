@@ -17,6 +17,7 @@ import {RegisterBlockComponent} from '../components/register-block/register-bloc
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 import {NgxGalleryModule} from '@kolkov/ngx-gallery';
+import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import {NgxGalleryModule} from '@kolkov/ngx-gallery';
     VgOverlayPlayModule,
     VgBufferingModule,
     NgxFlagIconCssModule,
-    NgxGalleryModule
+    NgxGalleryModule,
+    PhotoGalleryModule
   ],
   exports: [HeaderComponent,
     FooterComponent,

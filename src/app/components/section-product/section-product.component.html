@@ -1,99 +1,14 @@
 <section>
 
-<!--  <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>-->
-  <section class="team-section hiro-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 wow fadeInUp">
-          <h2 class="section-title" [innerHTML]="'BLOCK_TEAM.TITLE'|translate"></h2>
-          <p class="section-text-light">{{"BLOCK_TEAM.CONTENT" | translate}}</p>
-          <div>
-            <a class="carousel-control-prev" href="#hiroTeamCarousel" role="button" data-slide="prev">
-              <img src="assets/images/arrow_left.png" alt="left arrow" width="20px">
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#hiroTeamCarousel" role="button" data-slide="next">
-              <img src="assets/images/Arrow_right.png" alt="right arrow" width="20px">
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-7 wow fadeInRight">
-          <div id="hiroTeamCarousel" class="hiro-team-carousel carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-sm-6" (click)="open(1)">
-                    <div class="team-card" data-animation="animated flipInY">
-
-                      <img src="assets/images/testimonials/img_1.jpeg" alt="Paulina Gayoso"
-                           class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Roxana Sanchez <flag-icon [country]="'co'"></flag-icon></h6>
-                        <p class="team-member-title">Emprendedora</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" (click)="open(2)">
-                    <div class="team-card featured" data-animation="animated flipInY">
-                      <img src="assets/images/testimonials/img_2.jpeg" alt="Edwards" class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Charles Castañeda <flag-icon [country]="'ar'"></flag-icon></h6>
-                        <p class="team-member-title">Emprendedor</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-sm-6" (click)="open(3)">
-                    <div class="team-card" data-animation="animated flipInY">
-                      <img src="assets/images/testimonials/img_3.png" alt="Paulina Gayoso" class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Sofia Mommeso <flag-icon [country]="'ar'"></flag-icon></h6>
-                        <p class="team-meber-title">Emprendedora</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="team-card featured" data-animation="animated flipInY">
-                      <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Edwards</h6>
-                        <p class="team-meber-title">Emprendedor</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="team-card" data-animation="animated flipInY">
-                      <img src="assets/images/img_5.png" alt="Paulina Gayoso" class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Paulina Gayoso</h6>
-                        <p class="team-meber-title">Project Manager</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" data-animation="animated flipInY">
-                    <div class="team-card featured">
-                      <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
-                      <div class="team-member-details">
-                        <h6 class="team-member-name">Edwards</h6>
-                        <p class="team-meber-title">CTO, Co-Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <!--  <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>-->
+  <div class="products row m-0 d-flex col-12 p-0" [photoGalleryGroup]="{ arrowEl: true, indexIndicatorSep: ' - ' }">
+    <div class="products-item col-2 p-0" *ngFor="let a of [1,1,1,1,1,1,1,1,1,1,1,1]">
+      <div class="products-item-name">tttttt</div>
+      <div class="products-item-image"
+           [photoGallery]="'https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg'">
+        <img [src]="'http://photo.yupoo.com/424334770/335b844a/small.jpeg'"/>
       </div>
     </div>
-  </section>
+  </div>
 
 </section>

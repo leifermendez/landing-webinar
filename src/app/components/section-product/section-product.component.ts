@@ -9,6 +9,7 @@ import {NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions} from '@kolkov/n
 export class SectionProductComponent implements OnInit {
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
+  product1: any;
 
   constructor() {
   }

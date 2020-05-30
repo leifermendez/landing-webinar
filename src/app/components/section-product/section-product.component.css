@@ -4,16 +4,38 @@
   background-color: red;
   margin: auto;
 }
+
 .team-card {
   cursor: pointer;
 }
-.team-card img{
+
+.team-card img {
   height: 350px;
   object-fit: cover;
 }
-.team-section{
+
+.team-section {
   background-color: white !important;
 }
-.team-section .section-title{
-  color:#222222;
+
+.team-section .section-title {
+  color: #222222;
+}
+
+.products .products-item {
+
+}
+
+.products .products-item-name {
+  background: rgba(255, 255, 255, 0.54);
+  padding: .25rem 1rem;
+  position: absolute;
+  font-size: .8rem;
+  opacity: .5;
+}
+
+.products .products-item-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }

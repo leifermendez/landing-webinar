@@ -24,6 +24,7 @@ import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 import {ModalGalleryComponent} from './components/modal-gallery/modal-gallery.component';
 import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import { SectionProductComponent } from './components/section-product/section-product.component';
+import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 
 
 export function playerFactory() {
@@ -65,7 +66,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     RouterModule,
     NgxFlagIconCssModule,
-    NgxGalleryModule
+    NgxGalleryModule,
+    PhotoGalleryModule
   ],
   providers: [],
   exports: [],
