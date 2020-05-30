@@ -1,0 +1,19 @@
+.ngx-gallery {
+  display: block;
+  height: 100%;
+  background-color: red;
+  margin: auto;
+}
+.team-card {
+  cursor: pointer;
+}
+.team-card img{
+  height: 350px;
+  object-fit: cover;
+}
+.team-section{
+  background-color: white !important;
+}
+.team-section .section-title{
+  color:#222222;
+}

@@ -16,6 +16,7 @@ import {LoginBLockComponent} from '../components/login-block/login-block.compone
 import {RegisterBlockComponent} from '../components/register-block/register-block.component';
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
+import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 
 
 @NgModule({
@@ -31,18 +32,19 @@ import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
     LoginBLockComponent,
     RegisterBlockComponent
   ],
-    imports: [
-        CommonModule,
-        TranslateModule,
-        RouterModule,
-        FontAwesomeModule,
-        CollapseModule,
-        VgCoreModule,
-        VgControlsModule,
-        VgOverlayPlayModule,
-        VgBufferingModule,
-        NgxFlagIconCssModule,
-    ],
+  imports: [
+    CommonModule,
+    TranslateModule,
+    RouterModule,
+    FontAwesomeModule,
+    CollapseModule,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule,
+    NgxFlagIconCssModule,
+    NgxGalleryModule
+  ],
   exports: [HeaderComponent,
     FooterComponent,
     SectionOneComponent,

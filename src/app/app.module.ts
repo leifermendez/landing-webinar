@@ -21,6 +21,9 @@ import {SharedModule} from './shared/shared.module';
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 import { ModalVideoComponent } from './components/modal-video/modal-video.component';
 import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
+import {ModalGalleryComponent} from './components/modal-gallery/modal-gallery.component';
+import {NgxGalleryModule} from '@kolkov/ngx-gallery';
+import { SectionProductComponent } from './components/section-product/section-product.component';
 
 
 export function playerFactory() {
@@ -38,29 +41,32 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HomeComponent,
     ModalViewComponent,
-    ModalVideoComponent
+    ModalVideoComponent,
+    ModalGalleryComponent,
+    SectionProductComponent
   ],
-    imports: [
-        BrowserModule,
-        HttpClientModule,
-        SharedModule,
-        FontAwesomeModule,
-        BrowserAnimationsModule,
-        TranslateModule.forRoot({
-            defaultLanguage: 'es',
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        }),
-        LottieModule.forRoot({player: playerFactory}),
-        ModalModule.forRoot(),
-        ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
-        AppRoutingModule,
-        RouterModule,
-        NgxFlagIconCssModule
-    ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    SharedModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'es',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
+    LottieModule.forRoot({player: playerFactory}),
+    ModalModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
+    AppRoutingModule,
+    RouterModule,
+    NgxFlagIconCssModule,
+    NgxGalleryModule
+  ],
   providers: [],
   exports: [],
   bootstrap: [AppComponent]
