@@ -18,6 +18,7 @@ import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} 
 import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
+import {CarouselModule} from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
     VgBufferingModule,
     NgxFlagIconCssModule,
     NgxGalleryModule,
-    PhotoGalleryModule
+    PhotoGalleryModule,
+    CarouselModule
   ],
   exports: [HeaderComponent,
     FooterComponent,

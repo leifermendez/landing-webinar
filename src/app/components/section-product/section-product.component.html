@@ -1,14 +1,48 @@
-<section>
-
+<section class="contact-section hiro-section-product">
+  <div class="container wow fadeInUp">
+    <h6 class="font-weight-semibold mb-4 mb-md-0">{{"BLOCK_PRODUCTS.CONTENT" | translate}}</h6>
+    <h2 class="section-title">{{"BLOCK_PRODUCTS.TITLE" | translate}}</h2>
+  </div>
   <!--  <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>-->
-  <div class="products row m-0 d-flex col-12 p-0" [photoGalleryGroup]="{ arrowEl: true, indexIndicatorSep: ' - ' }">
-    <div class="products-item col-2 p-0" *ngFor="let a of [1,1,1,1,1,1,1,1,1,1,1,1]">
-      <div class="products-item-name">tttttt</div>
-      <div class="products-item-image"
-           [photoGallery]="'https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg'">
-        <img [src]="'http://photo.yupoo.com/424334770/335b844a/small.jpeg'"/>
-      </div>
+  <!--  <div class="products row m-0 d-flex col-12 p-0" [photoGalleryGroup]="{ arrowEl: true, indexIndicatorSep: ' - ' }">-->
+  <!--    <div class="products-item col-2 p-0" *ngFor="let a of [1,1,1,1,1,1,1,1,1,1,1,1]">-->
+  <!--      <div class="products-item-name">tttttt</div>-->
+  <!--      <div class="products-item-image"-->
+  <!--           [photoGallery]="'https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg'">-->
+  <!--        <img [src]="'http://photo.yupoo.com/424334770/335b844a/small.jpeg'"/>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+
+  <div class="d-flex justify-content-between menu-btn">
+    <div>
+      <a class="btn btn-arrow btn-lg bn-transparent" (click)="owlCar.prev()">
+        <fa-icon [icon]="faArrowLeft"></fa-icon>
+      </a>
+      <!--    <a class="btn btn-success" (click)="owlCar.next()">next</a>-->
+    </div>
+    <div>
+      <!--    <a class="btn btn-success" (click)="owlCar.prev()">prev</a> <==>-->
+      <a class="btn btn-arrow btn-lg bn-transparent" (click)="owlCar.next()">
+        <fa-icon [icon]="faArrowRight"></fa-icon>
+      </a>
     </div>
   </div>
+  <!--  <div>Some tags before</div>-->
+  <owl-carousel-o [options]="customOptions" #owlCar>
+    <ng-template carouselSlide *ngFor="let a of galleryImages">
+      <div (click)="open(a?.firstImg)">
+        <div class="brand-name">{{a?.firstImg?.brand?.name}}</div>
+        <img class="products-item-image" [src]="a?.firstImg?.image" alt="">
+      </div>
+      <div (click)="open(a?.secondImg)">
+        <div class="brand-name">{{a?.secondImg?.brand?.name}}</div>
+        <img class="products-item-image" [src]="a?.secondImg?.image" alt="">
+      </div>
+
+
+    </ng-template>
+  </owl-carousel-o>
+  <!--  <div>Some tags after</div>-->
 
 </section>

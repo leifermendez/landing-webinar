@@ -1,0 +1,18 @@
+.image-big img {
+  width: 100%;
+}
+
+.icon-close{
+  cursor: pointer;
+  /*background: rgba(255, 255, 255, 0.6);*/
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  /* padding: .5rem; */
+  margin: -25px -30px 0 0;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}

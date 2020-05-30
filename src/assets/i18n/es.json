@@ -97,6 +97,10 @@
     "ADDRESS": "",
     "PHONE": "ES: <a href='tel:+34645356542'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
   },
+  "BLOCK_PRODUCTS": {
+    "TITLE": "Productos",
+    "CONTENT": "Algunos productos de nuestro catalogo "
+  },
   "FOOTER": {
     "COPY": "©2020. All rights reserved.",
     "TERMS": "Terms and Conditions",

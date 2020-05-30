@@ -25,6 +25,7 @@ import {ModalGalleryComponent} from './components/modal-gallery/modal-gallery.co
 import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import { SectionProductComponent } from './components/section-product/section-product.component';
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
+import {CarouselModule} from 'ngx-owl-carousel-o';
 
 
 export function playerFactory() {
@@ -67,7 +68,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     RouterModule,
     NgxFlagIconCssModule,
     NgxGalleryModule,
-    PhotoGalleryModule
+    PhotoGalleryModule,
+    CarouselModule
   ],
   providers: [],
   exports: [],

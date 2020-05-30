@@ -1,1 +1,8 @@
-<ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+<div>
+  <div class="icon-close" (click)="bsModalRef.hide()">
+    <fa-icon [icon]="faTimes" size="lg"></fa-icon>
+  </div>
+  <div class="image-big">
+    <img [src]="section?.image" alt="">
+  </div>
+</div>
