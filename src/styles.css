@@ -145,7 +145,7 @@ a {
 }
 
 .modal-video-light .tap-info {
-  background: rgba(0, 0, 0, 0.46);
+  background: rgba(114, 114, 115, 0.7);
   position: absolute;
   z-index: 9;
   padding: .5rem;

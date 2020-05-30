@@ -15,6 +15,7 @@ import {SectionTwoComponent} from '../components/section-two/section-two.compone
 import {LoginBLockComponent} from '../components/login-block/login-block.component';
 import {RegisterBlockComponent} from '../components/register-block/register-block.component';
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
+import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 
 
 @NgModule({
@@ -30,17 +31,18 @@ import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} 
     LoginBLockComponent,
     RegisterBlockComponent
   ],
-  imports: [
-    CommonModule,
-    TranslateModule,
-    RouterModule,
-    FontAwesomeModule,
-    CollapseModule,
-    VgCoreModule,
-    VgControlsModule,
-    VgOverlayPlayModule,
-    VgBufferingModule,
-  ],
+    imports: [
+        CommonModule,
+        TranslateModule,
+        RouterModule,
+        FontAwesomeModule,
+        CollapseModule,
+        VgCoreModule,
+        VgControlsModule,
+        VgOverlayPlayModule,
+        VgBufferingModule,
+        NgxFlagIconCssModule,
+    ],
   exports: [HeaderComponent,
     FooterComponent,
     SectionOneComponent,

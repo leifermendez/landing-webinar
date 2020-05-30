@@ -14,19 +14,22 @@ export class SectionThreeComponent implements OnInit {
     {
       id: 1,
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-05-25+at+18.51.03.mp4',
-      name: 'Roxana Sanchez 🇨🇴',
+      name: 'Roxana Sanchez',
+      country: 'co',
       subTitle: 'Emprendedor'
     },
     {
       id: 2,
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-05-26+at+01.24.49.mp4',
-      name: 'Charles Castañeda 🇦🇷',
+      name: 'Charles Castañeda',
+      country: 'ar',
       subTitle: 'Emprendedor'
     },
     {
       id: 3,
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-05-25+at+18.51.04.mp4',
-      name: 'Sofia Mommeso 🇦🇷',
+      name: 'Sofia Mommeso',
+      country: 'ar',
       subTitle: 'Emprendedor'
     }
   ];

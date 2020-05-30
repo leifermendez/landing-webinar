@@ -20,6 +20,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {SharedModule} from './shared/shared.module';
 import {VgBufferingModule, VgControlsModule, VgCoreModule, VgOverlayPlayModule} from 'ngx-videogular';
 import { ModalVideoComponent } from './components/modal-video/modal-video.component';
+import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 
 
 export function playerFactory() {
@@ -39,26 +40,27 @@ export function HttpLoaderFactory(http: HttpClient) {
     ModalViewComponent,
     ModalVideoComponent
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    SharedModule,
-    FontAwesomeModule,
-    BrowserAnimationsModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'es',
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    }),
-    LottieModule.forRoot({player: playerFactory}),
-    ModalModule.forRoot(),
-    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
-    AppRoutingModule,
-    RouterModule
-  ],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        SharedModule,
+        FontAwesomeModule,
+        BrowserAnimationsModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'es',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        }),
+        LottieModule.forRoot({player: playerFactory}),
+        ModalModule.forRoot(),
+        ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
+        AppRoutingModule,
+        RouterModule,
+        NgxFlagIconCssModule
+    ],
   providers: [],
   exports: [],
   bootstrap: [AppComponent]
