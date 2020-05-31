@@ -23,7 +23,7 @@ export class SectionProductComponent implements OnInit {
     pullDrag: false,
     dots: false,
     autoplayTimeout: 1500,
-    autoplay: true,
+    autoplay: false,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -52,27 +52,41 @@ export class SectionProductComponent implements OnInit {
     this.galleryImages = [
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/424334770/b220f73b/3a982beb.jpeg',
+          image: '../../assets/images/products/adidas/img_1.jpeg',
           brand: {
             name: 'Adidas'
           }
         },
         secondImg: {
-          image: 'https://photo.yupoo.com/2942273488/a9806676/0b699468.jpg',
+          image: '../../assets/images/products/adidas/img_2.jpeg',
           brand: {
-            name: 'Nike'
+            name: 'Adidas'
           }
         }
       },
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/424334770/2204ebda/eea0daa1.jpg',
+          image: '../../assets/images/products/adidas/img_3.jpeg',
           brand: {
             name: 'Adidas'
           }
         },
         secondImg: {
-          image: 'https://photo.yupoo.com/2942273488/b3ab090d/ab8f2a9f.jpg',
+          image: '../../assets/images/products/adidas/img_4.jpeg',
+          brand: {
+            name: 'Adidas'
+          }
+        }
+      },
+      {
+        firstImg: {
+          image: '../../assets/images/products/nike/img_1.jpeg',
+          brand: {
+            name: 'Nike'
+          }
+        },
+        secondImg: {
+          image: '../../assets/images/products/nike/img_1.jpg',
           brand: {
             name: 'Nike'
           }
@@ -80,88 +94,74 @@ export class SectionProductComponent implements OnInit {
       },
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/280093721_v/1d261ca8/97cdf66f.jpeg',
+          image: '../../assets/images/products/gucci/img_1.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Gucci'
           }
         },
         secondImg: {
-          image: 'http://photo.yupoo.com/280093721_v/cdc60167/582270ed.jpeg',
+          image: '../../assets/images/products/balenciaga/img_1.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Balenciaga'
           }
         }
       },
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/junny8668/c50bdfd4/d992a662.jpg',
+          image: '../../assets/images/products/givenchy/img_1.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Givenchy'
           }
         },
         secondImg: {
-          image: 'http://photo.yupoo.com/junny8668/c445fe84/b21e41a1.jpg',
+          image: '../../assets/images/products/burberry/img_2.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Burberry'
           }
         }
       },
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/junny8668/514d0661/de657b28.jpg',
+          image: '../../assets/images/products/gucci/img_2.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Gucci'
           }
         },
         secondImg: {
-          image: 'http://photo.yupoo.com/junny8668/af9d8abe/0cb7d782.jpg',
+          image: '../../assets/images/products/versace/img_1.jpeg',
           brand: {
-            name: 'Nike'
+            name: 'Versace'
           }
         }
       },
       {
         firstImg: {
-          image: 'http://photo.yupoo.com/junny8668/af35a6a6/6f173fdb.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_1.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Louis Vuitton'
           }
         },
         secondImg: {
-          image: 'http://photo.yupoo.com/junny8668/92195956/25d70c92.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_2.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Louis Vuitton'
           }
         }
       },
       {
         firstImg: {
-          image: 'https://photo.yupoo.com/hotbags/3c898cf3/f6986440.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_3.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Louis Vuitton'
           }
         },
         secondImg: {
-          image: 'https://photo.yupoo.com/hotbags/7eeb7291/c8ec0aa4.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_4.jpg',
           brand: {
-            name: 'Nike'
+            name: 'Louis Vuitton'
           }
         }
       },
-      {
-        firstImg: {
-          image: 'https://photo.yupoo.com/hotbags/4252fd3b/15dfafc6.jpg',
-          brand: {
-            name: 'Nike'
-          }
-        },
-        secondImg: {
-          image: 'https://photo.yupoo.com/hotbags/49cbd152/fe9369cf.jpg',
-          brand: {
-            name: 'Nike'
-          }
-        }
-      }
     ];
   }
 
