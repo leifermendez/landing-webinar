@@ -16,16 +16,16 @@
     "LINK_INSTAGRAM": "https://www.instagram.com/tuenlacedirecto/?hl=es"
   },
   "SECTION_ONE": {
-    "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? NOSOTROS TE ASESORAMOS!",
-    "SECOND_SENTENCE": "Te daremos acceso a nuestros proveedores chinos y a su inventario de fábrica, podrás emprender tu propio negocio de la mano de profesionales que te guiaran para comprar grandes marcas hasta por un 70% de descuento; Nosotros le capacitamos y le ofrecemos toda nuestra experiencia en el negocio para que no cometa los errores y se vea perjudicado desde su comienzo como emprendedor , te enseñaremos paso a paso cómo se debe importar desde China correctamente y le apoyaremos mientras va tomando confianza en el negocio."
+    "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? <h4>Entonces has llegado al lugar adecuado.</h4>",
+    "SECOND_SENTENCE": "Somos una empresa de importación enfocada en el mercado asiático, pincipalmente en la fábrica del mundo: China. A parte de importar mercancía para nuestros clientes, ofrecemos servicios de formación para personas con ganas de ser sus propios jefes. Si decides unirte al resto de emprendedores, te daremos acceso a nuestros proveedores y a su inventario de fábrica, evitando así costes de intermediarios. Obtendrás información muy valiosa basada en la esperiencia de nuestros profesionales, que hará que no cometas errores de principiante y acelerará la puesta en marcha tu idea de negocio. Además, dispondrás de mentorías presenciales online, por lo que estaremos contigo durante tus primeros pasos, para guiarte y resolver tus dudas.<br>Ofrecemos toda nuestra experiencia en el sector, te enseñaremos paso a paso cómo se debe importar desde China correctamente y te apoyaremos mientras vas arrancando tu negocio."
   },
   "SECTION_TWO": {
-    "FIRST_SENTENCE": "SOMOS EL ENLACE CON CHINA PARA TUS COMPRAS",
-    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que no saben por dónde comenzar; Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios. Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiara en todo lo relacionado a importar desde China, los mejores productos de calidad TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, camisetas deportivas, accesorios para teléfonos, componentes electrónicos y muchos mas productos."
+    "FIRST_SENTENCE": "SOMOS TU ENLACE CON CHINA PARA TUS COMPRAS E IMPORTACIONES",
+    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que tienen claro por dónde comenzar. Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios.<br> Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiará paso a paso hasta que hayas aprendido a importar por tu cuenta. Solo trabajamos con proveedores cuyos productos  los mejores productos TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, maquillaje, camisetas deportivas, accesorios para teléfonos, electrónica y cualquier producto que te interese."
   },
   "SECTION_THREE": {
     "FIRST_SENTENCE": "EQUIPO Y LOGISTICA",
-    "SECOND_SENTENCE": " Nuestra sede logística se encuentra en España y Holanda con profesionales con mas de 5 años de experiencia en mundo de las importaciones, formación empresarial , marketing y desarrollo web,Contamos con los mejores proveedores de la cuidad (China Guangzhou)para que tus compras sean seguras y confiables."
+    "SECOND_SENTENCE": "Contamos con un equipo de profesionales internacional, con varios años de experiencia cada uno en su sector (importaciones, formación empresarial, marketing, desarrollo web y diseño gráfico).<br>Nuestras dos sedes logísticas se encuentran en España y en Holanda, con profesionales con mas de 5 años de experiencia en mundo de las Y aunque no son parte directa de nuestro equipo, contamos con los mejores proveedores de Guangzhou (China), los cuales se han ganado nuestra total confianza a lo largo de los años."
   },
   "BLOCK_ONE": {
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
@@ -95,7 +95,7 @@
     "TITLE": "Cuéntame tu proyecto",
     "CONTENT": "Somos la solución para el crecimiento de tu negocio",
     "ADDRESS": "",
-    "PHONE": "ES: <a href='tel:+34645356542'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
+    "PHONE": "ES: <a href='https://wa.me/34645356542' target='_blank'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
   },
   "BLOCK_PRODUCTS": {
     "TITLE": "Productos",
@@ -109,14 +109,15 @@
   },
   "MODAL_PLAN": {
     "FIRST_PLAN": {
-      "TITLE": "MEMBRESÍA PERSONAL FREE",
-      "CONTENT": "Realizamos la compra por ti, nosotros cotizamos el producto de tu preferencia que podrás ver en nuestro catálogo, hacemos la gestión de empaquetado y logística de envío a tu país por medio de correo nacional o Courier privado te aseguraremos de que la calidad sea siempre la mejor con la supervisión y seguimiento que conlleva nuestros lazos con los fabricantes Chinos",
+      "TITLE": "Membresía personal FREE",
+      "CONTENT": "Realizamos la compra por ti, nosotros cotizamos el producto de tu preferencia que podrás ver en nuestro catálogo, hacemos la gestión de empaquetado y logística de envío a tu país por medio de correo nacional o mensajero privado. Nos aseguraremos de que la calidad sea siempre la mejor con la supervisión y seguimiento que conlleva nuestros lazos con los fabricantes Chinos",
       "SUB_TITLE": "SOMOS TU ENLACE CON CHINA",
       "LIST": [
-        "Podrás tener acceso al catálogo",
-        "Podrás cotizar a través de nosotros un producto o varios",
-        "Los pagos a nuestros proveedores se realizan por western unión o moneygram",
-        "Depende de la cantidad de la Compra, el pago del envió corre por cuenta del cliente",
+        "Podrás comprar cualquier producto de nuestro catálogo",
+        "Nos hacemos cargo de asegurar tu compra y el envío de la misma.",
+        "Te aseguramos la máxima calidad del producto",
+        "Los pagos a nuestros proveedores se realizan por Western unión o Moneygram",
+        "Dependiendo del número de unidades, los costes de envío pueden no estar incluidos",
         "Podrás acceder con un 20% de descuento a la membresía Elite si realiza un pedido de no menos de 8 productos "
       ]
     },
@@ -130,8 +131,8 @@
         "Podrás escoger entre la variedad de calidades disponibles",
         "Podrás comprar a precio de fábrica y sin comisiones adicionales al contratar con nuestra membresía PRO",
         "Puedes adquirir  la membresía en cualquier país, nuestro equipo de trabajo es bilingüe, no será un problema a la hora de la comunicación ",
-        "Con la membresía PRO, NO TIENES ACCESO A LOS PROVEEDORES, nosotros realizamos el pedido por ti, nos encargamos de todo el proceso tu solo pagas el producto",
-        "El pago de proveedores se realiza únicamente  por western unión o moneygram, te daremos el medio de pago al momento",
+        "Con la membresía PRO, NO TIENES ACCESO A LOS PROVEEDORES, nosotros realizamos el pedido por ti, nos encargamos de todo el proceso tu solo pagas el producto",
+        "El pago de proveedores se realiza únicamente  por western unión o moneygram, te daremos el medio de pago al momento",
         "Para comprar a precio de fábrica y acceder a más de 30 proveedores de calidad TOP QUALITY debe adquirir la membresía ELITE"
       ]
     },

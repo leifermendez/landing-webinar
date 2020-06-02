@@ -37,6 +37,8 @@ export class HeaderComponent implements OnInit {
           firstSecond: res
         }
       };
+
+      // console.log(this.content)
     });
     this.translate.get('SECTION_TWO.SECOND_SENTENCE').subscribe((res: string) => {
       this.content = {

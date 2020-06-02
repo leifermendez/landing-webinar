@@ -2,13 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
-        <h2 class="section-title mb-3">{{"BLOCK_ONE.FIRST_SENTENCE" |translate}}</h2>
-        <p class="section-text-ct">{{"BLOCK_ONE.SECOND_SENTENCE" |translate}}</p>
+        <h2 class="section-title mb-3" [innerHTML]="'BLOCK_ONE.FIRST_SENTENCE' |translate"></h2>
+        <p class="section-text-ct" [innerHTML]="'BLOCK_ONE.SECOND_SENTENCE' |translate"></p>
       </div>
       <div class="col-md-6 wow fadeInUp">
         <img src="assets/images/img_3.png" class="w-100 mb-5" alt="Digital Product Design">
-        <p class="section-text-light">{{"BLOCK_ONE.THIRD_SENTENCE" |translate}}</p>
-        <a target="_blank" [href]="'GENERAL.WS' |translate" class="hiro-btn-outline button-over-zoom">{{"GENERAL.VIEW_MORE" |translate}}</a>
+        <p class="section-text-light" [innerHTML]="'BLOCK_ONE.THIRD_SENTENCE' |translate"></p>
+        <a target="_blank" [href]="'GENERAL.WS' |translate"
+           class="hiro-btn-outline button-over-zoom">{{"GENERAL.VIEW_MORE" |translate}}</a>
       </div>
     </div>
   </div>
