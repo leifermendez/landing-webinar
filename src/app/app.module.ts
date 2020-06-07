@@ -26,6 +26,7 @@ import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import { SectionProductComponent } from './components/section-product/section-product.component';
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 import {CarouselModule} from 'ngx-owl-carousel-o';
+import { LightComponentComponent } from './components/light-component/light-component.component';
 
 
 export function playerFactory() {
@@ -45,7 +46,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ModalViewComponent,
     ModalVideoComponent,
     ModalGalleryComponent,
-    SectionProductComponent
+    LightComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -72,7 +73,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     CarouselModule
   ],
   providers: [],
-  exports: [],
+  exports: [
+    SectionProductComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

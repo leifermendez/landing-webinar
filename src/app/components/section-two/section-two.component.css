@@ -7,16 +7,27 @@
   line-height: 2rem;
 }
 
+section {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
 .service-section .plan-free {
   padding: 1rem;
   background-color: #fffefe;
   border: solid 1px #ffe6e4;
 }
-.service-section .plan{
+
+.service-section .plan {
   cursor: pointer;
 }
+
 .service-section .list-group-item {
   background-color: transparent;
+}
+
+.section-title-sub {
+  font-size: 1.8rem;
 }
 
 .service-section .plan:nth-child(2), .service-section .plan:nth-child(3), .service-section .plan:nth-child(4) {
@@ -49,7 +60,7 @@
   z-index: 9;
   background-color: #fff2f1;
   padding: .75rem;
-  border:0 !important;;
+  border: 0 !important;;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.15);
   /*border: solid 1px white;*/
   border-radius: 1px;

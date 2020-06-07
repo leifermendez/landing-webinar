@@ -1,22 +1,39 @@
 <app-header id="header"></app-header>
 
-<!-- SECTION ONE -->
-<app-section-one id="one"></app-section-one>
+<app-light-component
+  [color]="'rgb(237, 248, 255)'" [data]="dataTwo">
+</app-light-component>
 
-<!-- SECTION TWO -->
-<app-section-two id="two"></app-section-two>
-<!-- FAQ -->
-<app-faq id="faq"></app-faq>
 
-<!-- SECTION PRODUCT -->
-<app-section-product id="products"></app-section-product>
+<app-light-component
+   [color]="'#2bcbba'"
+  [data]="dataThree">
+</app-light-component>
 
-<!-- SECTION THREE -->
+
+<app-light-component
+   [color]="'#c8d6e5'"
+  [data]="dataFour">
+</app-light-component>
+<!--&lt;!&ndash; SECTION ONE &ndash;&gt;-->
+<!--<app-section-one id="one"></app-section-one>-->
+
+<app-section-two></app-section-two>
+<!--<app-section-product id="products"></app-section-product>-->
+
+
+<!--&lt;!&ndash; FAQ &ndash;&gt;-->
+
+
+<!--&lt;!&ndash; SECTION THREE &ndash;&gt;-->
 <app-section-three id="three"></app-section-three>
+<!--&lt;!&ndash; SECTION PRODUCT &ndash;&gt;-->
 
 
-<!-- SECTION FOURTH -->
-<app-section-fourth id="forth"></app-section-fourth>
+<app-light-component [data]="dataFive"></app-light-component>
 
-<!-- FOOTER -->
+<!--&lt;!&ndash; SECTION FOURTH &ndash;&gt;-->
+<!--<app-section-fourth id="forth"></app-section-fourth>-->
+<app-faq id="faq"></app-faq>
+<!--&lt;!&ndash; FOOTER &ndash;&gt;-->
 <app-footer></app-footer>

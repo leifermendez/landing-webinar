@@ -10638,7 +10638,7 @@ html {
 }
 
 .hiro-header.home-header {
-  background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);
+  /*background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10975,7 +10975,7 @@ html {
 }
 
 .hiro-header-carousel .carousel-item-title::before {
-  content: attr(data-number);
+  /*content: attr(data-number);*/
   position: absolute;
   color: rgba(231, 76, 60, .4);
   z-index: 1;
@@ -11087,7 +11087,7 @@ html {
 }
 
 .service-section {
-  padding-right: 150px;
+  padding-right: 0px;
   position: relative;
 }
 
@@ -11130,12 +11130,12 @@ html {
 }
 
 .service-section::before {
-  background-image: url("../images/img_2@2x.png");
+  /*background-image: url("../images/img_2@2x.png");*/
   bottom: calc(50% + 32px);
 }
 
 .service-section::after {
-  background-image: url("../images/img_1@2x.png");
+  /*background-image: url("../images/img_1@2x.png");*/
   top: calc(50% + 32px);
 }
 
@@ -11150,6 +11150,7 @@ html {
   height: 8px;
   margin-top: 4px;
   background-image: url("../images/Team_line.png");
+  background-size: auto 8px;
   background-size: auto 8px;
 }
 

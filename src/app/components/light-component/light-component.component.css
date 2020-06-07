@@ -1,0 +1,4 @@
+:host .titles-section:nth-child(2) h1 {
+  font-size: 30px !important;
+  /*background-color: red;*/
+}

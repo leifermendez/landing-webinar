@@ -16,12 +16,14 @@
     "LINK_INSTAGRAM": "https://www.instagram.com/tuenlacedirecto/?hl=es"
   },
   "SECTION_ONE": {
-    "FIRST_SENTENCE": "¿QUIERES EMPRENDER TU PROPIO NEGOCIO? <h4>Entonces has llegado al lugar adecuado.</h4>",
-    "SECOND_SENTENCE": "Somos una empresa de importación enfocada en el mercado asiático, pincipalmente en la fábrica del mundo: China. A parte de importar mercancía para nuestros clientes, ofrecemos servicios de formación para personas con ganas de ser sus propios jefes. Si decides unirte al resto de emprendedores, te daremos acceso a nuestros proveedores y a su inventario de fábrica, evitando así costes de intermediarios. Obtendrás información muy valiosa basada en la esperiencia de nuestros profesionales, que hará que no cometas errores de principiante y acelerará la puesta en marcha tu idea de negocio. Además, dispondrás de mentorías presenciales online, por lo que estaremos contigo durante tus primeros pasos, para guiarte y resolver tus dudas.<br>Ofrecemos toda nuestra experiencia en el sector, te enseñaremos paso a paso cómo se debe importar desde China correctamente y te apoyaremos mientras vas arrancando tu negocio."
+    "FIRST_SENTENCE": "¿Quienes somos?",
+    "SECOND_SENTENCE": "Somos una empresa internacional con más de 4 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor. Pero debido al enorme auge del comercio online, también ofrecemos Asesoría y formacion a todo aquél que no quiera quedarse atrás."
   },
   "SECTION_TWO": {
-    "FIRST_SENTENCE": "SOMOS TU ENLACE CON CHINA PARA TUS COMPRAS E IMPORTACIONES",
-    "SECOND_SENTENCE": "Queremos brindar la oportunidad a todas aquellas personas que desean emprender en este negocio pero que tienen claro por dónde comenzar. Daremos los pasos contigo para que aprendas a importar desde China sin necesidad de intermediarios.<br> Nuestro equipo con más de 5 años de experiencia en comercio internacional te guiará paso a paso hasta que hayas aprendido a importar por tu cuenta. Solo trabajamos con proveedores cuyos productos  los mejores productos TOP QUALITY como: Zapatillas, ropa, bolsos, gafas, maquillaje, camisetas deportivas, accesorios para teléfonos, electrónica y cualquier producto que te interese."
+    "FIRST_SENTENCE": "¿Quieres emprender un negocio?",
+    "SECOND_SENTENCE": "¿Estas cansado de trabajar para enriquecer a tu jefe? Estás en el lugar adecuado. Queremos facilitarte todas las herramientas para que puedas llevarlo a cabo.",
+    "FIRST_SENTENCE_2": "Cuéntanos tu idea",
+    "SECOND_SENTENCE_2": "¿Solo tienes la idea pero no tienes claro por dónde empezar? Estaremos encantados de escucharte a través de una de nuestras asesorías online. Analizaremos la viabilidad de la misma, y te guiaremos para que puedas ponerla en marcha cuanto antes!"
   },
   "SECTION_THREE": {
     "FIRST_SENTENCE": "EQUIPO Y LOGISTICA",
@@ -31,6 +33,33 @@
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
     "SECOND_SENTENCE": "Al tener acceso a nuestros proveedores, obtendras una gran ventaja para iniciar tu emprendimiento, estarias ahorrando tiempo y dinero ademas del crecimiento y la expansión de tu negocio.",
     "THIRD_SENTENCE": "Con nuestra formacion te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
+  },
+  "SERVICES": {
+    "FIRST": {
+      "TITLE": "Venta directa",
+      "CONTENT": "Te ofrecemos una amplia gama de productos en nuestros catálogos, cuyos precios siempre son al menos un 30% inferiores a su precio al público."
+    },
+    "SECOND": {
+      "TITLE": "Asesoria y Formacion",
+      "CONTENT": [
+        {
+          "TITLE": "Importa de China",
+          "CONTENT": "Además te facilitaremos los contactos de nuestros proveedores de confianza. Avanzaremos contigo paso a paso a través de las asesorías online incluidas, para que puedas resolver todas tus dudas."
+        },
+        {
+          "TITLE": "E-commerce",
+          "CONTENT": "No queremos complicarte la vida. Tu danos una idea de logo, un nombre, dos colores, el tipo de productos que quieres vender, y nosotros nos encargamos del resto. Registramos el dominio y la cuenta de email empresarial. Y listo, tu ecommerce funcionando!"
+        },
+        {
+          "TITLE": "Campañas marketing RRSS",
+          "CONTENT": "Te enseñamos cómo crear tus campañas publicitarias tanto en Facebook como en Instagram. "
+        },
+        {
+          "TITLE": "Asesorías personales online",
+          "CONTENT": "Estaremos en contacto y  haremos seguimiento para ver el crecimiento de tu negocio, secretos, tips, y recomendaciones que en nuestra experiencia han llevado hacer nuestros negocios más exitosos "
+        }
+      ]
+    }
   },
   "FAQ": {
     "TITLE": "PREGUNTAS FRECUENTES",
@@ -99,6 +128,7 @@
   },
   "BLOCK_PRODUCTS": {
     "TITLE": "Productos",
+    "SUB_TITLE": "Algunos de nuestros productos",
     "CONTENT": "Algunos productos de nuestro catálogo "
   },
   "FOOTER": {

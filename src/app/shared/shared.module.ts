@@ -19,6 +19,7 @@ import {NgxFlagIconCssModule} from 'ngx-flag-icon-css';
 import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 import {CarouselModule} from 'ngx-owl-carousel-o';
+import {SectionProductComponent} from '../components/section-product/section-product.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
     SectionFourthComponent,
     SectionThreeComponent,
     LoginBLockComponent,
-    RegisterBlockComponent
+    RegisterBlockComponent,
+    SectionProductComponent
   ],
   imports: [
     CommonModule,
@@ -60,8 +62,8 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
     FaqComponent,
     VgCoreModule,
     VgControlsModule,
-    VgOverlayPlayModule,
-    VgBufferingModule,]
+    VgOverlayPlayModule, SectionProductComponent,
+    VgBufferingModule, ReadMoreDirective]
 })
 export class SharedModule {
 }

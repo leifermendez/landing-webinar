@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions} from '@kolkov/ngx-gallery';
 import {OwlOptions} from 'ngx-owl-carousel-o';
 import {faArrowRight, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
@@ -12,6 +12,7 @@ import {ModalGalleryComponent} from '../modal-gallery/modal-gallery.component';
   styleUrls: ['./section-product.component.css']
 })
 export class SectionProductComponent implements OnInit {
+  @Input() mode = false;
   bsModalRef: BsModalRef;
   galleryImages: any[];
   faArrowRight = faArrowRight;
@@ -37,7 +38,7 @@ export class SectionProductComponent implements OnInit {
         items: 4
       },
       940: {
-        items: 8
+        items: 4
       }
     },
     nav: false

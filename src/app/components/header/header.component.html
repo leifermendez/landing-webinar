@@ -3,8 +3,8 @@
     <div class="container">
       <div class="hiro-nav">
         <a href="index.html" class="nav-brand">
-          <img src="assets/images/logo-letras.svg" width="120px" alt="Hiro" class="logo">
-          <img src="assets/images/logo_white.svg" alt="Hiro" class="logo-white">
+          <img src="assets/images/logo_letras_blancas.png" width="120px" alt="Hiro" class="logo">
+          <img src="assets/images/logo_letras_blancas.png" alt="Hiro" class="logo-white">
         </a>
         <button class="hiro-nav-popup-toggle">
           <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -28,25 +28,38 @@
       </div>
     </div>
   </nav>
+
+  <!--NEW SECTION-->
+<!--  <div class="container wow fadeInUp">-->
+<!--    <div class="row">-->
+<!--      <div class="col-12">-->
+<!--        <h1>¿Quienes somos?</h1>-->
+<!--        <p>    Somos una empresa internacional con más de 4 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--  </div>-->
+
   <div [hidden]="!carousel" class="container wow fadeInUp">
     <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="20000">
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01">
                 <span [innerHTML]="'SECTION_ONE.FIRST_SENTENCE' | translate"></span></h1>
               <div *ngIf="content?.firstSecond" [@swipe]>
                 <p #textContent id="read-more" class="carousel-item-description" [innerHTML]="content?.firstSecond" data-animation="animated fadeInRight">
                 </p>
                 <div class="read-more-link">
-                  <a appReadMore [readMore-length]="3" [readMore-element]="textContent">
+                  <a appReadMore [readMore-length]="5" [readMore-element]="textContent">
                                <span class="carousel-item-link link-hover-fx less"
                                      data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_LESS" |translate}}
+<!--                         {{"GENERAL.VIEW_LESS" |translate}}-->
                     </span>
                     <span class="carousel-item-link link-hover-fx more" data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_MORE" |translate}}
+<!--                         {{"GENERAL.VIEW_MORE" |translate}}-->
                     </span>
                   </a>
                 </div>
@@ -67,106 +80,106 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md-6">
-              <img src="assets/images/image_1.jpeg" [alt]="'SECTION_ONE.FIRST_SENTENCE' | translate"
-                   class="img-fluid w-100 rounded img-block"
-                   width="372px">
-            </div>
+<!--            <div class="col-md-6">-->
+<!--              <img src="assets/images/image_1.jpeg" [alt]="'SECTION_ONE.FIRST_SENTENCE' | translate"-->
+<!--                   class="img-fluid w-100 rounded img-block"-->
+<!--                   width="372px">-->
+<!--            </div>-->
           </div>
 
         </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="02">
-                <span>{{'SECTION_TWO.FIRST_SENTENCE' | translate}}</span>
-              </h1>
-              <div *ngIf="content?.secondSecond" [@swipe]>
-                <p #textContent2 id="read-more2" class="carousel-item-description"
-                   data-animation="animated fadeInRight" [innerHTML]="content?.secondSecond">
+<!--        <div class="carousel-item">-->
+<!--          <div class="row">-->
+<!--            <div class="col-md-6">-->
+<!--              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="02">-->
+<!--                <span>{{'SECTION_TWO.FIRST_SENTENCE' | translate}}</span>-->
+<!--              </h1>-->
+<!--              <div *ngIf="content?.secondSecond" [@swipe]>-->
+<!--                <p #textContent2 id="read-more2" class="carousel-item-description"-->
+<!--                   data-animation="animated fadeInRight" [innerHTML]="content?.secondSecond">-->
 
-                </p>
-                <div class="read-more-link">
-                  <a appReadMore [readMore-length]="3" [readMore-element]="textContent2">
-                               <span class="carousel-item-link link-hover-fx less"
-                                     data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_LESS" |translate}}
-                    </span>
-                    <span class="carousel-item-link link-hover-fx more" data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_MORE" |translate}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <ul class="carousel-item-social-links nav mt-4" data-animation="animated fadeInRight">
-                <!--                <li>-->
-                <!--                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>-->
-                <!--                </li>-->
-                <!--                <li>-->
-                <!--                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>-->
-                <!--                </li>-->
-                <li>
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <img src="assets/images/image_3.jpeg" [alt]="'SECTION_TWO.FIRST_SENTENCE' | translate"
-                   class="img-fluid w-100 rounded img-block" width="372px">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"><span>
-                 {{'SECTION_THREE.FIRST_SENTENCE' | translate}}
-              </span>
-              </h1>
-              <div *ngIf="content?.thirdSecond" [@swipe]>
-                <p #textContent3 id="read-more3" class="carousel-item-description"
-                   data-animation="animated fadeInRight" [innerHTML]="content?.thirdSecond">
+<!--                </p>-->
+<!--                <div class="read-more-link">-->
+<!--                  <a appReadMore [readMore-length]="3" [readMore-element]="textContent2">-->
+<!--                               <span class="carousel-item-link link-hover-fx less"-->
+<!--                                     data-animation="animated fadeInRight">-->
+<!--                         {{"GENERAL.VIEW_LESS" |translate}}-->
+<!--                    </span>-->
+<!--                    <span class="carousel-item-link link-hover-fx more" data-animation="animated fadeInRight">-->
+<!--                         {{"GENERAL.VIEW_MORE" |translate}}-->
+<!--                    </span>-->
+<!--                  </a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <ul class="carousel-item-social-links nav mt-4" data-animation="animated fadeInRight">-->
+<!--                &lt;!&ndash;                <li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                <li>-->
+<!--                  <a [href]="'GENERAL.WS' |translate" target="_blank"-->
+<!--                     class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--              <img src="assets/images/image_3.jpeg" [alt]="'SECTION_TWO.FIRST_SENTENCE' | translate"-->
+<!--                   class="img-fluid w-100 rounded img-block" width="372px">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="carousel-item">-->
+<!--          <div class="row">-->
+<!--            <div class="col-md-6">-->
+<!--              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"><span>-->
+<!--                 {{'SECTION_THREE.FIRST_SENTENCE' | translate}}-->
+<!--              </span>-->
+<!--              </h1>-->
+<!--              <div *ngIf="content?.thirdSecond" [@swipe]>-->
+<!--                <p #textContent3 id="read-more3" class="carousel-item-description"-->
+<!--                   data-animation="animated fadeInRight" [innerHTML]="content?.thirdSecond">-->
 
-                </p>
-                <div class="read-more-link">
-                  <a appReadMore [readMore-length]="5" [readMore-element]="textContent3">
-                               <span class="carousel-item-link link-hover-fx less"
-                                     data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_LESS" |translate}}
-                    </span>
-                    <span class="carousel-item-link link-hover-fx more" data-animation="animated fadeInRight">
-                         {{"GENERAL.VIEW_MORE" |translate}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <ul class="carousel-item-social-links nav mt-4" data-animation="animated fadeInRight">
-                <!--                <li>-->
-                <!--                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>-->
-                <!--                </li>-->
-                <!--                <li>-->
-                <!--                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>-->
-                <!--                </li>-->
-                <li>
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <img src="assets/images/image_4.jpeg" [alt]="'SECTION_THREE.SECOND_SENTENCE' | translate"
-                   class="img-fluid w-100 rounded img-block"
-                   width="372px">
-            </div>
-          </div>
-        </div>
+<!--                </p>-->
+<!--                <div class="read-more-link">-->
+<!--                  <a appReadMore [readMore-length]="5" [readMore-element]="textContent3">-->
+<!--                               <span class="carousel-item-link link-hover-fx less"-->
+<!--                                     data-animation="animated fadeInRight">-->
+<!--                         {{"GENERAL.VIEW_LESS" |translate}}-->
+<!--                    </span>-->
+<!--                    <span class="carousel-item-link link-hover-fx more" data-animation="animated fadeInRight">-->
+<!--                         {{"GENERAL.VIEW_MORE" |translate}}-->
+<!--                    </span>-->
+<!--                  </a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <ul class="carousel-item-social-links nav mt-4" data-animation="animated fadeInRight">-->
+<!--                &lt;!&ndash;                <li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                  <a href="#!" class="link-hover-fx">{{"GENERAL.FACEBOOK" |translate}}</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                  <a href="#!" class="link-hover-fx">{{"GENERAL.TWITTER" |translate}}</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                <li>-->
+<!--                  <a [href]="'GENERAL.WS' |translate" target="_blank"-->
+<!--                     class="link-hover-fx">{{"GENERAL.BEHANCE" |translate}}</a>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--              <img src="assets/images/image_4.jpeg" [alt]="'SECTION_THREE.SECOND_SENTENCE' | translate"-->
+<!--                   class="img-fluid w-100 rounded img-block"-->
+<!--                   width="372px">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
-      <ol class="carousel-indicators">
-        <li data-target="#hiroHeaderCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#hiroHeaderCarousel" data-slide-to="1"></li>
-        <li data-target="#hiroHeaderCarousel" data-slide-to="2"></li>
-      </ol>
+<!--      <ol class="carousel-indicators">-->
+<!--        <li data-target="#hiroHeaderCarousel" data-slide-to="0" class="active"></li>-->
+<!--        <li data-target="#hiroHeaderCarousel" data-slide-to="1"></li>-->
+<!--        <li data-target="#hiroHeaderCarousel" data-slide-to="2"></li>-->
+<!--      </ol>-->
     </div>
   </div>
 </header>

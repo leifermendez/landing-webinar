@@ -1,0 +1,23 @@
+<div [style.backgroundColor]="color">
+  <div class="container wow fadeInUp">
+    <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="20000">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-12 titles-section" *ngFor="let section of data">
+              <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01">
+                <span [innerHTML]="section?.title"></span></h1>
+              <!--            <div *ngIf="content?.firstSecond" [@swipe]>-->
+              <p #textContent class="carousel-item-description"
+                 [innerHTML]="section?.content" data-animation="animated fadeInRight">
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
