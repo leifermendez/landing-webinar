@@ -65,3 +65,9 @@ section {
   /*border: solid 1px white;*/
   border-radius: 1px;
 }
+
+.list-check ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

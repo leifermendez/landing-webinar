@@ -3,6 +3,7 @@
     "HELLO": "hello"
   },
   "GENERAL": {
+    "CONTACT": "Escribenos",
     "VIEW_MORE": "Ver más",
     "VIEW_LESS": "Ver menos",
     "FACEBOOK": "Facebook",
@@ -37,7 +38,12 @@
   "SERVICES": {
     "FIRST": {
       "TITLE": "Venta directa",
-      "CONTENT": "Te ofrecemos una amplia gama de productos en nuestros catálogos, cuyos precios siempre son al menos un 30% inferiores a su precio al público."
+      "CONTENT": "Te ofrecemos una amplia gama de productos en nuestros catálogos, cuyos precios siempre son al menos un 30% inferiores a su precio al público.",
+      "LIST": [
+        "lorem3",
+        "lorem3",
+        "lorem3"
+      ]
     },
     "SECOND": {
       "TITLE": "Asesoria y Formacion",
@@ -93,14 +99,14 @@
   "BLOCK_SERVICES": {
     "TITLE": "NUESTROS SERVICIOS",
     "FIRST_PLAN": {
-      "TITLE": "MEMBRESIA <span class='badge-free'>FREE</span>",
+      "TITLE": "Aprende a importar",
       "CONTENT.ONE": "Realizamos la compra por ti ",
       "CONTENT.TWO": "Supervisión y seguimiento de tu producto",
       "CONTENT.THREE": "20% de descuento en la membresia Elite por la compra de 8 productos",
       "PRICE": 0
     },
     "SECOND_PLAN": {
-      "TITLE": "MEMBRESIA PRO",
+      "TITLE": "E-Commerce",
       "CONTENT.ONE": "Precios de fábrica",
       "CONTENT.TWO": "Cantidades ilimitadas",
       "CONTENT.THREE": "Todas las calidades disponibles",
@@ -108,7 +114,15 @@
       "BEFORE_PRICE": 149
     },
     "THREE_PLAN": {
-      "TITLE": "MEMBRESIA ELITE",
+      "TITLE": "Marketing RRSS",
+      "CONTENT.ONE": "Asesoria personalizada",
+      "CONTENT.TWO": "Acceso a mas de 30 Proveedores",
+      "CONTENT.THREE": "Productos calidad Top Quality",
+      "PRICE": 350,
+      "BEFORE_PRICE": 599
+    },
+    "FOUR_PLAN": {
+      "TITLE": "Asesoria Online",
       "CONTENT.ONE": "Asesoria personalizada",
       "CONTENT.TWO": "Acceso a mas de 30 Proveedores",
       "CONTENT.THREE": "Productos calidad Top Quality",

@@ -11,6 +11,11 @@
               <p #textContent class="carousel-item-description"
                  [innerHTML]="section?.content" data-animation="animated fadeInRight">
               </p>
+              <div class="d-flex" *ngIf="section?.contact">
+                <a target="_blank" class="text-black" [href]="'GENERAL.WS' | translate">
+                  <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon> <b class="ml-2" [innerHTML]="section?.contact"></b>
+                </a>
+              </div>
             </div>
           </div>
 

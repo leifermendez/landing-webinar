@@ -22,7 +22,8 @@ export class HomeComponent implements OnInit {
       },
       {
         title: 'Cuéntanos tu idea',
-        content: '¿Solo tienes la idea pero no tienes claro por dónde empezar? Estaremos encantados de escucharte a través de una de nuestras asesorías online. Analizaremos la viabilidad de la misma, y te guiaremos para que puedas ponerla en marcha cuanto antes!'
+        content: '¿Solo tienes la idea pero no tienes claro por dónde empezar? Estaremos encantados de escucharte a través de una de nuestras asesorías online. Analizaremos la viabilidad de la misma, y te guiaremos para que puedas ponerla en marcha cuanto antes!',
+        contact: 'Escribenos'
       }
     ];
 
