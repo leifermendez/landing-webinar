@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>linkedin@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Hiro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Costomark-Agency" transform="translate(-677.000000, -4094.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Stacked-Group-5" transform="translate(641.000000, 4094.000000)">
+                <g id="linkedin" transform="translate(36.000000, 0.000000)">
+                    <path d="M19.995,20 L19.995,19.9991667 L20,19.9991667 L20,12.6641667 C20,9.07583333 19.2275,6.31166667 15.0325,6.31166667 C13.0158333,6.31166667 11.6625,7.41833333 11.11,8.4675 L11.0516667,8.4675 L11.0516667,6.64666667 L7.07416667,6.64666667 L7.07416667,19.9991667 L11.2158333,19.9991667 L11.2158333,13.3875 C11.2158333,11.6466667 11.5458333,9.96333333 13.7016667,9.96333333 C15.8258333,9.96333333 15.8575,11.95 15.8575,13.4991667 L15.8575,20 L19.995,20 Z" id="Path"></path>
+                    <polygon id="Path" points="0.33 6.6475 4.47666667 6.6475 4.47666667 20 0.33 20"></polygon>
+                    <path d="M2.40166667,0 C1.07583333,0 0,1.07583333 0,2.40166667 C0,3.7275 1.07583333,4.82583333 2.40166667,4.82583333 C3.7275,4.82583333 4.80333333,3.7275 4.80333333,2.40166667 C4.8025,1.07583333 3.72666667,0 2.40166667,0 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
