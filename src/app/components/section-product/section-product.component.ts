@@ -53,13 +53,13 @@ export class SectionProductComponent implements OnInit {
     this.galleryImages = [
       {
         firstImg: {
-          image: '../../assets/images/products/adidas/img_1.jpeg',
+          image: '../../assets/images/products/others/img_1.jpeg',
           brand: {
-            name: 'Adidas'
+            name: 'Timberland'
           }
         },
         secondImg: {
-          image: '../../assets/images/products/adidas/img_2.jpeg',
+          image: '../../assets/images/products/adidas/img_5.jpeg',
           brand: {
             name: 'Adidas'
           }
@@ -67,27 +67,27 @@ export class SectionProductComponent implements OnInit {
       },
       {
         firstImg: {
-          image: '../../assets/images/products/adidas/img_3.jpeg',
-          brand: {
-            name: 'Adidas'
-          }
-        },
-        secondImg: {
-          image: '../../assets/images/products/adidas/img_4.jpeg',
-          brand: {
-            name: 'Adidas'
-          }
-        }
-      },
-      {
-        firstImg: {
-          image: '../../assets/images/products/nike/img_1.jpeg',
+          image: '../../assets/images/products/nike/img_3.jpeg',
           brand: {
             name: 'Nike'
           }
         },
         secondImg: {
-          image: '../../assets/images/products/nike/img_1.jpg',
+          image: '../../assets/images/products/adidas/img_6.jpeg',
+          brand: {
+            name: 'Nike'
+          }
+        }
+      },
+      {
+        firstImg: {
+          image: '../../assets/images/products/adidas/img_7.jpeg',
+          brand: {
+            name: 'Adidas'
+          }
+        },
+        secondImg: {
+          image: '../../assets/images/products/nike/img_1.jpeg',
           brand: {
             name: 'Nike'
           }
@@ -109,9 +109,9 @@ export class SectionProductComponent implements OnInit {
       },
       {
         firstImg: {
-          image: '../../assets/images/products/givenchy/img_1.jpg',
+          image: '../../assets/images/products/gucci/img_3.jpeg',
           brand: {
-            name: 'Givenchy'
+            name: 'Gucci'
           }
         },
         secondImg: {
@@ -123,27 +123,13 @@ export class SectionProductComponent implements OnInit {
       },
       {
         firstImg: {
-          image: '../../assets/images/products/gucci/img_2.jpg',
-          brand: {
-            name: 'Gucci'
-          }
-        },
-        secondImg: {
-          image: '../../assets/images/products/versace/img_1.jpeg',
-          brand: {
-            name: 'Versace'
-          }
-        }
-      },
-      {
-        firstImg: {
-          image: '../../assets/images/products/louis_vuitton/img_1.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_5.jpeg',
           brand: {
             name: 'Louis Vuitton'
           }
         },
         secondImg: {
-          image: '../../assets/images/products/louis_vuitton/img_2.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_6.jpeg',
           brand: {
             name: 'Louis Vuitton'
           }
@@ -151,7 +137,21 @@ export class SectionProductComponent implements OnInit {
       },
       {
         firstImg: {
-          image: '../../assets/images/products/louis_vuitton/img_3.jpg',
+          image: '../../assets/images/products/louis_vuitton/img_7.jpeg',
+          brand: {
+            name: 'Louis Vuitton'
+          }
+        },
+        secondImg: {
+          image: '../../assets/images/products/others/img_2.jpeg',
+          brand: {
+            name: 'Fendi'
+          }
+        }
+      },
+      {
+        firstImg: {
+          image: '../../assets/images/products/others/img_3.jpeg',
           brand: {
             name: 'Louis Vuitton'
           }

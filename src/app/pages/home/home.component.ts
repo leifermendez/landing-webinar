@@ -34,8 +34,8 @@ export class HomeComponent implements OnInit {
         content: 'En nuestro formacion“ aprende a Importar de China” te enseñaremos todo lo necesario para que seas capaz de importar tus productos directamente, sin intermediarios. Esto se va a traducir en un ahorro de costes, es decir, un aumento de tu margen de beneficios.'
       },
       {
-        title: '¿Aun no la tienes?',
-        content: 'Ningún problema! En vez de enseñarte a como crear un ecommerce ( y para no hacerte aprender a programar), te lo vamos a crear y configurar, y te lo entregamos ya funcionando y listo para que puedas empezar a vender tus productos.'
+        title: '¿Aún no la tienes?',
+        content: 'Ningún problema! En vez de enseñarte a como crear un ecommerce ( y para no hacerte aprender a programar), te lo vamos a crear, configurar, te lo entregamos funcionando y listo para que puedas empezar a vender tus productos.'
       }
     ];
 

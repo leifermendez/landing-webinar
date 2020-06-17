@@ -22,7 +22,7 @@ export class SectionThreeComponent implements OnInit {
       id: 2,
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-05-26+at+01.24.49.mp4',
       name: 'Charles Castañeda',
-      country: 'ar',
+      country: 've',
       subTitle: 'Emprendedor'
     },
     {
@@ -37,6 +37,13 @@ export class SectionThreeComponent implements OnInit {
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/VID-20200601-WA0027.mp4',
       name: 'Victor Corral',
       country: 'es',
+      subTitle: 'Emprendedor'
+    },
+    {
+      id: 5,
+      video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-06-05+at+12.11.05+(1).mp4',
+      name: 'Kevin Roa',
+      country: 'us',
       subTitle: 'Emprendedor'
     }
   ];
