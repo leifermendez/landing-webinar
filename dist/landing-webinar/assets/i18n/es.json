@@ -18,7 +18,7 @@
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿Quienes somos?",
-    "SECOND_SENTENCE": "Somos una empresa internacional con más de 4 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor. Pero debido al enorme auge del comercio online, también ofrecemos Asesoría y formacion a todo aquél que no quiera quedarse atrás."
+    "SECOND_SENTENCE": "Somos una empresa internacional con más de 5 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor. Pero debido al enorme auge del comercio online, también ofrecemos Asesoría y formación a todo aquél que no quiera quedarse atrás."
   },
   "SECTION_TWO": {
     "FIRST_SENTENCE": "¿Quieres emprender un negocio?",
@@ -33,20 +33,16 @@
   "BLOCK_ONE": {
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
     "SECOND_SENTENCE": "Al tener acceso a nuestros proveedores, obtendras una gran ventaja para iniciar tu emprendimiento, estarias ahorrando tiempo y dinero ademas del crecimiento y la expansión de tu negocio.",
-    "THIRD_SENTENCE": "Con nuestra formacion te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
+    "THIRD_SENTENCE": "Con nuestra formación te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
   },
   "SERVICES": {
     "FIRST": {
       "TITLE": "Venta directa",
       "CONTENT": "Te ofrecemos una amplia gama de productos en nuestros catálogos, cuyos precios siempre son al menos un 30% inferiores a su precio al público.",
-      "LIST": [
-        "lorem3",
-        "lorem3",
-        "lorem3"
-      ]
+      "LIST": []
     },
     "SECOND": {
-      "TITLE": "Asesoria y Formacion",
+      "TITLE": "Asesoria y formación",
       "CONTENT": [
         {
           "TITLE": "Importa de China",
@@ -71,12 +67,12 @@
     "TITLE": "PREGUNTAS FRECUENTES",
     "QUESTIONS": [
       {
-        "TITLE": "¿Cómo puedo pagar la membresía?",
+        "TITLE": "¿Cómo puedo pagar la formación?",
         "ANSWER": "Aceptamos como medio de pago varias plataformas, como PayPal, Western Unión o Money Gram, TransferWise, Zelle, Visa y Mastercard a través de Worldremit"
       },
       {
-        "TITLE": "¿Cómo se si me servirá esta formacion a mi?",
-        "ANSWER": "Esta formacion está diseñada para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
+        "TITLE": "¿Cómo se si me servirá esta formación a mi?",
+        "ANSWER": "Esta formación está diseñada para personas con una visión de negocio y emprendimiento claras; tanto si empiezas de cero como si llevas tiempo en ello. Aprenderás todas las herramientas y técnicas avanzadas que nosotros utilizamos para hacer de nuestras tiendas un éxito. Si quieres transformar radicalmente tus resultados en este negocio, esta formación es perfecta para ti."
       },
       {
         "TITLE": "No tengo un producto que vender, ¿me sirve la formación?",
@@ -107,19 +103,19 @@
     },
     "SECOND_PLAN": {
       "TITLE": "E-Commerce",
-      "CONTENT.ONE": "Precios de fábrica",
-      "CONTENT.TWO": "Cantidades ilimitadas",
-      "CONTENT.THREE": "Todas las calidades disponibles",
-      "PRICE": 49,
-      "BEFORE_PRICE": 149
+      "CONTENT.ONE": "Plataforma de pago",
+      "CONTENT.TWO": "Instalación",
+      "CONTENT.THREE": "Servidores y Hospedaje (3 meses GRATIS)",
+      "PRICE": 199,
+      "BEFORE_PRICE": 299
     },
     "THREE_PLAN": {
       "TITLE": "Marketing RRSS",
-      "CONTENT.ONE": "Asesoria personalizada",
-      "CONTENT.TWO": "Acceso a mas de 30 Proveedores",
-      "CONTENT.THREE": "Productos calidad Top Quality",
-      "PRICE": 350,
-      "BEFORE_PRICE": 599
+      "CONTENT.ONE": "Campañas de venta probadas",
+      "CONTENT.TWO": "Mayor alcance de publico",
+      "CONTENT.THREE": "Segmentacion detallada",
+      "PRICE": 99,
+      "BEFORE_PRICE": 199
     },
     "FOUR_PLAN": {
       "TITLE": "Asesoria Online",
