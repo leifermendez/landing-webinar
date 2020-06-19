@@ -8,8 +8,7 @@
     </span></h3>
     <h6>{{data?.SUB_TITLE}}</h6>
     <div>
-      <p @swipe class="content-text">
-        {{data?.CONTENT}}
+      <p @swipe class="content-text" [innerHTML]="data?.CONTENT">
       </p>
       <div @swipe class="content-list content-text">
         <ul>

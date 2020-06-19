@@ -39,11 +39,15 @@ export class ModalViewComponent implements OnInit {
       ICON: null
     },
     SECOND_PLAN: {
-      IMG: '../../../assets/images/second_plan.jpg',
+      IMG: '../../../assets/images/ecommerce_plan.jpg',
       ICON: faAward
     },
     THIRD_PLAN: {
       IMG: '../../../assets/images/third_plan.jpg',
+      ICON: faCrown
+    },
+    FOURTH_PLAN: {
+      IMG: '../../../assets/images/fourth_plan.jpg',
       ICON: faCrown
     }
   };

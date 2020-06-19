@@ -10,18 +10,18 @@
 
               <p [innerHTML]="'SERVICES.FIRST.CONTENT' | translate"></p>
             </div>
-            <div class="list-check">
+            <div class="list-check pb-2">
               <ul class="">
-                <li *ngFor="let list of checkList">
+                <li class="pb-2" *ngFor="let list of checkList">
                   <fa-icon [icon]="faCheck"></fa-icon>
-                  {{list}}
+                  <span class="pl-2" [innerHTML]="list"></span>
                 </li>
               </ul>
             </div>
             <div class="d-flex mt-2">
               <a target="_blank" class="text-black" [href]="'GENERAL.WS' | translate">
-                <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon>
-                <b class="ml-2" [innerHTML]="'GENERAL.CONTACT' | translate"></b>
+                <span class="pr-2" [innerHTML]="'GENERAL.GENERAL_PRODUCTS_WS' | translate"></span>
+                <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon><b class="ml-1" [innerHTML]="'GENERAL.CLICK_WS' | translate"></b>
               </a>
             </div>
             <div class="text-center">
@@ -155,18 +155,18 @@
                   <a [href]="'GENERAL.WS' |translate" target="_blank"
                      class="hiro-btn-outline button-over-zoom mt-4">
                     <div></div>
-                    {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.FOUR_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
+                   {{"BLOCK_SERVICES.FOUR_PLAN.INFO" | translate}}
                   </a>
-                  <div class="mt-4 pl-2 badge-strike">
-                    <div>
-                      <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>
-                      <span class="text-strikeº"> {{ 'GENERAL.SYMBOL' |translate}}
-                        {{"BLOCK_SERVICES.FOUR_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>
-                    </div>
-                  </div>
+<!--                  <div class="mt-4 pl-2 badge-strike">-->
+<!--                    <div>-->
+<!--                      <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>-->
+<!--                      <span class="text-strikeº"> {{ 'GENERAL.SYMBOL' |translate}}-->
+<!--                        {{"BLOCK_SERVICES.FOUR_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>-->
+<!--                    </div>-->
+<!--                  </div>-->
                 </div>
 
-                <div class="pt-2 pl-1" (click)="open('THIRD_PLAN')">
+                <div class="pt-2 pl-1" (click)="open('FOURTH_PLAN')">
                   <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.DETAIL" |translate}}</button>
                 </div>
               </div>

@@ -14,8 +14,7 @@
           </div>
 
           <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
-            <div class="answer">
-              {{question?.ANSWER}}
+            <div class="answer" [innerHTML]="question?.ANSWER">
             </div>
           </div>
 
