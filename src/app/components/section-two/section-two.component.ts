@@ -14,6 +14,8 @@ import {TranslateService} from '@ngx-translate/core';
 export class SectionTwoComponent implements OnInit {
   @Input() showTitle = false;
   @Input() mode = false;
+  @Input() color: string;
+  @Input() section = false;
   public items: any;
   public checkList: any;
   bsModalRef: BsModalRef;

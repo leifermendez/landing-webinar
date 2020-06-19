@@ -75,7 +75,7 @@ export class SectionProductComponent implements OnInit {
         secondImg: {
           image: '../../assets/images/products/adidas/img_6.jpeg',
           brand: {
-            name: 'Nike'
+            name: 'Adidas'
           }
         }
       },
@@ -153,7 +153,7 @@ export class SectionProductComponent implements OnInit {
         firstImg: {
           image: '../../assets/images/products/others/img_3.jpeg',
           brand: {
-            name: 'Louis Vuitton'
+            name: 'Christian Dior'
           }
         },
         secondImg: {

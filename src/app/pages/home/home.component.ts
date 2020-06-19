@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
       },
       {
         title: 'Cuéntanos tu idea',
-        content: '¿Solo tienes la idea pero no tienes claro por dónde empezar? Estaremos encantados de escucharte a través de una de nuestras asesorías online. Analizaremos la viabilidad de la misma, y te guiaremos para que puedas ponerla en marcha cuanto antes!',
+        content: '¿Solo tienes la idea pero no tienes claro por dónde empezar? Estaremos encantados de escucharte a través de una de nuestras asesorías online. <br><br> Analizaremos la viabilidad de la misma, y te guiaremos para que puedas ponerla en marcha cuanto antes!',
         contact: 'Escribenos'
       }
     ];
@@ -41,8 +41,8 @@ export class HomeComponent implements OnInit {
 
     this.dataFour = [
       {
-        title: ' Me da pereza el marketing',
-        content: 'Entendemos que uno no puede saber de todo. Pero a día de hoy, el marketing online es una herramienta fundamental para todo. Aunque llegar a ser un experto requiere bastante tiempo, te vamos a enseñar de manera sencilla a crear tus campañas publicitarias en Facebook e Instagram. Paso a paso, pero directo a los puntos clave.'
+        title: ' El marketing',
+        content: 'Entendemos que uno no puede saber de todo. Pero a día de hoy, el marketing online es una herramienta fundamental para todo. <br><br> Aunque llegar a ser un experto requiere bastante tiempo, te vamos a enseñar de manera sencilla a crear tus campañas publicitarias en Facebook e Instagram. Paso a paso, pero directo a los puntos clave.'
       }
     ];
 
