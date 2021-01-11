@@ -26,13 +26,6 @@ export class SectionThreeComponent implements OnInit {
       subTitle: 'Emprendedor'
     },
     {
-      id: 1,
-      video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/WhatsApp+Video+2020-05-25+at+18.51.03.mp4',
-      name: 'Roxana Sanchez',
-      country: 'co',
-      subTitle: 'Emprendedor'
-    },
-    {
       id: 4,
       video: 'https://media-mochileros.s3.us-east-2.amazonaws.com/videos/VID-20200601-WA0027.mp4',
       name: 'Victor Corral',

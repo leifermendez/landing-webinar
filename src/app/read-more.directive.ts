@@ -21,7 +21,7 @@ export class ReadMoreDirective implements AfterViewInit, OnChanges {
    * @inheritDoc
    */
   public ngAfterViewInit() {
-    this.text = this.elementChange.innerHTML;
+    this.text = this.elementChange.innerHTML || null;
     this.toggleView();
     if (!this.hideToggle) {
       this.el.nativeElement.classList.remove('hidden');

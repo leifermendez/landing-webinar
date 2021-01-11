@@ -8,6 +8,7 @@
 }
 
 section {
+  background: #ff8980;
   padding-top: 70px;
   padding-bottom: 90px;
 }
@@ -15,7 +16,7 @@ section {
 .service-section .plan-free {
   padding: 1rem;
   background-color: #fffefe;
-  border: solid 1px #ffe6e4;
+  border: solid 4px #ff8980;
 }
 
 .service-section .plan {

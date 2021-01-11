@@ -27,6 +27,11 @@ import { SectionProductComponent } from './components/section-product/section-pr
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 import {CarouselModule} from 'ngx-owl-carousel-o';
 import { LightComponentComponent } from './components/light-component/light-component.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { EventsComponent } from './pages/events/events.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { SupportComponent } from './pages/support/support.component';
 
 
 export function playerFactory() {
@@ -46,7 +51,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     ModalViewComponent,
     ModalVideoComponent,
     ModalGalleryComponent,
-    LightComponentComponent
+    LightComponentComponent,
+    AboutComponent,
+    ServicesComponent,
+    EventsComponent,
+    ContactComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,

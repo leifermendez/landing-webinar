@@ -2,6 +2,14 @@
   "HEADER": {
     "HELLO": "hello"
   },
+  "MENU": {
+    "HOME": "Inicio",
+    "ABOUT_US": "Nosotros",
+    "SERVICES": "Servicios",
+    "EVENTS": "Ferias",
+    "CONTACT": "Contacto",
+    "SUPPORT": "Asesoria"
+  },
   "GENERAL": {
     "CONTACT": "Escribenos",
     "VIEW_MORE": "Ver más",
@@ -21,7 +29,7 @@
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿Quiénes somos?",
-    "SECOND_SENTENCE": "Somos una empresa internacional con más de 5 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor. <br><br> Pero debido al enorme auge del comercio online, también ofrecemos Asesoría y formación a todo aquél que no quiera quedarse atrás."
+    "SECOND_SENTENCE": "Somos una empresa internacional con más de 5 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fábrica, y vendemos tanto al por mayor como al por menor. <br><br> Debido al enorme auge del comercio online, también ofrecemos Asesoría y formación a todo aquél que no quiera quedarse atrás."
   },
   "SECTION_TWO": {
     "FIRST_SENTENCE": "¿Quieres emprender un negocio?",
@@ -36,7 +44,7 @@
   "BLOCK_ONE": {
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
     "SECOND_SENTENCE": "Al tener acceso a nuestros proveedores, obtendras una gran ventaja para iniciar tu emprendimiento, estarias ahorrando tiempo y dinero ademas del crecimiento y la expansión de tu negocio.",
-    "THIRD_SENTENCE": "Con nuestra formación te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
+    "THIRD_SENTENCE": "Con nuestra formación te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fábrica del mundo"
   },
   "SERVICES": {
     "FIRST": {
@@ -53,7 +61,7 @@
       "CONTENT": [
         {
           "TITLE": "Curso “Emprende Importando”",
-          "CONTENT": "Hemos creado esta formación para todos aquellas personas con espíritu emprendedor. Te enseñaremos cómo de fácil es importar desde china, librandome de intermediarios y consiguiendo un precio de fábrica. <br><br> Además te facilitaremos todos los contactos de nuestros proveedores de confianza. Avanzaremos contigo paso a paso a través de las asesorías online incluidas, para que puedas resolver todas tus dudas.\n"
+          "CONTENT": "Hemos creado esta formación para todos aquellas personas con espíritu emprendedor. Te enseñaremos cómo de fácil es importar desde china, librandome de intermediarios y consiguiendo un precio de fábrica. <br><br> Además te facilitaremos todos los contactos de nuestros proveedores de confianza. Avanzaremos contigo paso a paso a través de las asesorías online incluidas, para que puedas resolver todas tus dudas.<br>"
         },
         {
           "TITLE": "E-commerce",
@@ -75,7 +83,7 @@
     "QUESTIONS": [
       {
         "TITLE": "¿Cómo se si me servirá esta formación a mi?",
-        "ANSWER": "     El curso “Emprende Importando” está diseñado para aquellas personas hartas de trabajar 8h al día para que otros se enriquezcan a su costa. <br><br>¿Tienes ya un negocio? Vas a aumentar tu margen de beneficios con los precios que nuestros proveedores te van a ofrecer. <br><br>¿Sólo tienes una idea en la cabeza? Si empiezas de cero,te asesoraremos y aprenderás todas las herramientas y técnicas que nosotros utilizamos para hacer de tu idea un negocio de éxito. Si quieres empezar a trabajar en tu libertad financiera, esta formación es perfecta para ti.\n"
+        "ANSWER": "     El curso “Emprende Importando” está diseñado para aquellas personas hartas de trabajar 8h al día para que otros se enriquezcan a su costa. <br><br>¿Tienes ya un negocio? Vas a aumentar tu margen de beneficios con los precios que nuestros proveedores te van a ofrecer. <br><br>¿Sólo tienes una idea en la cabeza? Si empiezas de cero,te asesoraremos y aprenderás todas las herramientas y técnicas que nosotros utilizamos para hacer de tu idea un negocio de éxito. Si quieres empezar a trabajar en tu libertad financiera, esta formación es perfecta para ti.<br>"
       },
       {
         "TITLE": "No tengo un producto que vender, ¿Para qué me sirve la formación?",
@@ -106,23 +114,24 @@
   "BLOCK_SERVICES": {
     "TITLE": "NUESTROS SERVICIOS",
     "FIRST_PLAN": {
-      "TITLE": "Emprende Importando",
-      "CONTENT.ONE": "Enseñanza online paso a paso",
+      "TITLE": "Ahorra dinero",
+      "CONTENT.ONE": "Contratando nuestros servicios, puedes comprar directamente sin necesidad de gastar en viáticos para venir a China. Además, contamos con una amplia cartera de proveedores de confianza, lo cual nos permite ofrecer precios muy por debajo de los del mercado.",
       "CONTENT.TWO": "Precios de fábrica sin intermediarios",
       "CONTENT.THREE": "Profesionales a tu disposición",
+      "BEFORE_PRICE": 649,
       "PRICE": 349
     },
     "SECOND_PLAN": {
-      "TITLE": "E-Commerce",
-      "CONTENT.ONE": "Registro de dominio",
+      "TITLE": "Gane seguridad",
+      "CONTENT.ONE": "Somos su representante en China frente a empresas fantasmas, proveedores aprovechados y fraudes en general. Tenemos acceso al registro mercantil, así como a bases de datos oficiales que nos permiten evaluar la fiabilidad de empresas. También hacemos visitas a fábricas para verificar la calidad de los proveedores.",
       "CONTENT.TWO": "Configuración y explicación del panel de control",
       "CONTENT.THREE": "Entrega listo para funcionar",
       "PRICE": 199,
       "BEFORE_PRICE": 299
     },
     "THREE_PLAN": {
-      "TITLE": "Marketing RRSS",
-      "CONTENT.ONE": "Formación en directo online",
+      "TITLE": "Ahorra tiempo",
+      "CONTENT.ONE": "Nuestros clientes no necesitan preocuparse de buscar o contactar con los proveedores, ni venir a China para supervisar el proceso. Confían en nosotros y así evitan semanas de duro trabajo para asegurar la mejor mercancía.",
       "CONTENT.TWO": "Aprenderás a crear tus campañas",
       "CONTENT.THREE": "Estrategias de 2020 actualizadas",
       "PRICE": 149,
@@ -145,8 +154,8 @@
   "BLOCK_TALK": {
     "TITLE": "Cuéntanos tu proyecto",
     "CONTENT": "Somos la solución para el crecimiento de tu negocio",
-    "ADDRESS": "",
-    "PHONE": "ES: <a href='https://wa.me/34645356542' target='_blank'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
+    "ADDRESS": "Edificio 101 recinto Longchuangyunlu,  40 Huangbian south road, cranelong Street, Distrito Baiyun, Guangzhou CHINA",
+    "PHONE": "ES: <a href='https://wa.me/34645356542' target='_blank'></a> <br> <a href='mailto:info@tuenlacedirecto.com'>info@tuenlacedirecto.com</a>"
   },
   "BLOCK_PRODUCTS": {
     "TITLE": "Productos",
@@ -186,7 +195,7 @@
     },
     "THIRD_PLAN": {
       "TITLE": "Marketing RRSS",
-      "CONTENT": "Con el auge del comercio online, la importancia del marketing hoy en día es algo más que evidente. <br><br>Dado que es un campo bastante amplio, hemos diseñado una pequeña formación para enseñarte a realizar campañas de marketing en Facebook e Instagram por ti mismo. <br><br>La experta en marketing digital de nuestro equipo te guiará paso a paso en directo online como crear tu primera campaña.\n",
+      "CONTENT": "Con el auge del comercio online, la importancia del marketing hoy en día es algo más que evidente. <br><br>Dado que es un campo bastante amplio, hemos diseñado una pequeña formación para enseñarte a realizar campañas de marketing en Facebook e Instagram por ti mismo. <br><br>La experta en marketing digital de nuestro equipo te guiará paso a paso en directo online como crear tu primera campaña.<br>",
       "SUB_TITLE": "",
       "LIST": [
         "Formación de 2h en directo online",
@@ -197,7 +206,7 @@
     },
     "FOURTH_PLAN": {
       "TITLE": "Asesorías Online",
-      "CONTENT": "El mundo del emprendimiento es apasionante, y cada día son más los que se aventuran en él. No requiere ser un experto en ningún campo en concreto, pero sí saber de varios temas para transformar una idea en un negocio. Por lo que queremos ayudarte.<br><br>Tanto si ya has arrancado tu negocio, como si aún estás perfilando la idea, ponemos a tu disposición un servicio de asesorías online personalizadas, en que la puedes hacerme cualquier consulta, y nuestros expertos resolverán tus dudas. <br><br>Queremos guiarte en el proceso, hacer un seguimiento de tu evolución, y aportarte todo nuestro valor basado en nuestra experiencia previa. De este modo, evitarás cometer errores que puedan retrasar o dar lugar a costes inesperados.\n",
+      "CONTENT": "El mundo del emprendimiento es apasionante, y cada día son más los que se aventuran en él. No requiere ser un experto en ningún campo en concreto, pero sí saber de varios temas para transformar una idea en un negocio. Por lo que queremos ayudarte.<br><br>Tanto si ya has arrancado tu negocio, como si aún estás perfilando la idea, ponemos a tu disposición un servicio de asesorías online personalizadas, en que la puedes hacerme cualquier consulta, y nuestros expertos resolverán tus dudas. <br><br>Queremos guiarte en el proceso, hacer un seguimiento de tu evolución, y aportarte todo nuestro valor basado en nuestra experiencia previa. De este modo, evitarás cometer errores que puedan retrasar o dar lugar a costes inesperados.<br>",
       "SUB_TITLE": "",
       "LIST": [
         "Asesorías online personalizadas",
@@ -207,5 +216,21 @@
         "Tú decides cómo y cuándo"
       ]
     }
+  },
+  "PAGE_ABOUT": {
+    "TITLE": "Nosotros",
+    "TEXT": "Somos una empresa internacional con sede en Baiyun Guangzhou China, dedicada a la importación desde el gigante asiático hacia cualquier parte del mundo, nuestro gran aliado comercial TIAN CHENG INTERNACIONAL LOGISTIC, nos permite almacenar, verificar, comprar y enviar cualquier tipo de productos que requieran nuestros clientes.<br>Posemos una ubicación estratégica a los principales mercados mayoristas, de repuestos, moda, telefonía. Maquinaria, accesorios, iluminación.<br>Nuestro trabajo es asegurar que su inversión de compras en China sea altamente rentable, Por ello, nuestra primera misión es facilitar y agilizar sus pasos en el negocio de importación de China y prevenirle de los problemas más comunes a la hora de establecer relaciones comerciales con proveedores chinos.<br>Nuestro equipo de trabajo está formado por un pequeño grupo de jóvenes de origen chino y latinoamericano profesionales en comercio internacional con años de experiencia en importaciones. Contamos con agentes comerciales en Argentina, Venezuela, México Estados unidos y España."
+  },
+  "PAGE_SERVICES": {
+    "TITLE": "Servicios",
+    "TEXT": "<b>Agente de compras en China</b><br><br>El servicio de agente de compra en China es nuestro servicio comercial principal, que abarca búsqueda de proveedores, auditoría de fábrica, soporte de negociación, gestión de compras, inspección de calidad, guía comercial, almacenaje, soporte en envíos, agente de importación y exportación. Podemos actuar simplemente como su 'oficina de compras' en China, tratando de ahorrar su costo y reducir los riesgos en su negocio en China. Principalmente, servimos para los clientes de los países de habla hispana tales como Chile, Colombia, México, Ecuador, Argentina, Venezuela, Honduras, Bolivia, Perú, Uruguay, Paraguay, España y estados unidos;No dude en rellenarnos el Formulario de Búsqueda de proveedores incluyendo su correo electrónico, cantidad, productos y etc. Le responderemos por correo electrónico dentro de las 24 horas. En tu enlace directo aseguramos de la calidad de los productos y de la puntualidad en las entregas para que se cumplan siempre los requisitos y condiciones fijados por los clientes.<br>Asimismo, le mantenemos informado por email o por vía telefónica, con el propósito de que usted esté al corriente del proceso de fabricación de la mercancía. Una vez que termina la fase de producción de su producto en China, nosotros mismos nos encargamos de cargar la mercancía al contenedor para evitar incidencias y verificar que el producto esté en perfecto estado antes del embarque.<br><br><b>Búsqueda y verificación de proveedores:</b><br><br>Una de las tareas más difíciles es encontrar un proveedor chino que cumpla con todas las características que buscas para hacer crecer tu negocio que se adapte a tus necesidades y tus requerimientos. El proveedor chino perfecto no existe, siempre filtramos a través de nuestra experiencia en el mercado de las importaciones cual es la mejor opción para nuestros clientes, nunca escogemos a los proveedores por el precio que demandan sus productos de eso puedes estar completamente seguro, son varios los factores que tomamos en cuenta a la hora de comenzar a seleccionar un proveedor que nos entregue la confianza, la rapidez y eficacia en la comunicación, Además en el requerimiento de los productos que desean nuestros clientes, nuestra relación de trabajos con los proveedores asiáticos se basa en la confianza una relación de trabajo sin interrupciones desde 2011. Un proveedor de confianza debe convertirse aliado para tu negocio de importaciones. Será un aliado que le agregará valor a tu negocio porque te entregará: buenos productos siempre, valores competitivos y un excelente servicio<br><br>Tu enlace directo cuenta con un equipo de trabajo especializado en gestionar tu proyecto de importación para que tus compras en china puedan ser llevadas a cabo de forma segura.<br><br>Logística: gracias  a nuestros socios comerciales TIAN CHENG INTERNACIONAL DE LOGISTICA HEMOS PODIDO darles a todos nuestros clientes un mejor servicio<br><br><b>Servicio de logística</b><br><br><b><i>1.\tTransporte marítimo</i></b><br>MSK, ZIM, HANJIN, CMA, COSCO, EVERGREEN y HAMBURG SUD. Son algunas de las navieras con las que trabajamos diariamente desde el puerto de Guangzhou, tanto para envíos con Cargas a Contenedor Lleno (FCL) como para Cargas a Contenedor Parcial (LCL) no es necesario llenar un contenedor se puede realizar reagrupación de carga compartir el contenedor con varios importadores. Mantenemos unos precios en envió marítimo muy por debajo de la demanda actual ya que nuestra cercanía con las fabricas reduce los costos de traslados desde nuestro almacén en China hasta el puerto.<br><br><b><i>2.\tCargo aéreo</i></b> <br>El transporte aéreo internacional ha ganado un mercado considerable con su eficiencia rápida, segura y flexibilidad, acortando considerablemente el tiempo de entrega, tiene las características de ser rápido y eficienciente, y es indispensable para el transporte de objetos valiosos, frescos e instrumentos de precisión en el comercio internacional. Ha desempeñado un gran papel en la aceleración de la rotación y la circulación de capital en la cadena logística de suministros. Sin embargo, el costo relativo del transporte aéreo es relativamente alto, y el requisito de tiempo es alto. La relación de Costo del transporte marítimo y aéreo es de aproximadamente 1:10.<br><br>Elementos para pedir presupuesto:<br>1. Nombre (si son mercancías peligrosas)<br>2. Peso (involucrado en la tarifa), volumen (si está burbujeado),<br>3. Embalaje (con o sin paleta)<br>4. El aeropuerto de destino<br>5. Tiempo requerido en llegar (directo o con transbordo)<br>6. Vuelos (variedad de vuelos y diferencias de precios)<br>7. Categoría de Conocimiento de Embarque (Master AWB o Hijo AWB)<br>8. Servicios requeridos de transporte (métodos de declaración, documentos etc.)<br><br><b><i>3.\tPuerta a puerta</i></b><br>Manejamos sus embarques de puerta a puerta con impuestos incluidos desde China hasta Colombia, México, Ecuador<br>El servicio de entrega Puerta a Puerta está diseñado para asegurarle una excelente experiencia de envío de China a Latinoamérica. Este servicio convierte la importación de China totalmente fácil! Desde ahora puede usted comprar en China cualquier cantidad, cualquier tipo de mercancía sin más barreras, sin preocupación por el desconocimiento sobre trámites de importación, ni preocuparse por los impuestos de importación.<br>El medio de transporte a utilizar se determina según el tipo de carga y sus requerimientos.<br>Podemos recoger la carga donde usted nos indique o recibirla en nuestro almacén en Guangzhou China.<br>Le invitamos a disfrutar de este servicio. No dude en contactarnos, estamos a disposición para resolver todas sus inquietudes.<br><br><b><i>4.\tCourier internacional</i></b><br>Courier internacional es la manera ideal del envió para paquetes pequeños de muestras y documentos. Las empresas de exprés internacional más famoso son DHL, FEDEX, UPS, TNT, EMS. Han desempeñado un papel fundamental en el comercio exterior de China, el volumen de negocios anualmente se crece a un ritmo del 30%.<br>Método de cálculo del peso del volumen del paquete es: (largo x ancho x alto) (cm) / 5000<br><br><b><i>5.\tAlmacenaje</i></b><br>Nuestros clientes son muy importantes para nosotros es por eso que contamos con almacenes que nos permite cumplir con sus necesidades de almacenamiento. Estamos ubicados en el distrito de Baiyun Guangzhou China, lo que facilita el transporte rápido de su mercancía.<br>Re empaquetamos en cartón las mercancías de acuerdo al requerimiento de los clientes, con motivo de reducir el volumen de la mercancía o reforzar el empaque exterior.<br>Contamos con seguridad permanente en todas nuestras instalaciones para garantizar que su carga esté segura. Nuestro equipo monitorea e inspecciona las instalaciones diariamente y lleva siempre un inventario de la mercancía almacenada."
+  },
+  "PAGE_SUPPORT": {
+    "TITLE": "Asesoría",
+    "TEXT": "China es un país lleno de oportunidades de negocio en el campo de la importación. No obstante, es necesario tener presente que el éxito de la primera operación de importación depende de un proceso complejo. Son diversos los inconvenientes derivados de realizar un viaje de negocios al gigante asiático: la gran distancia geográfica entre su país y China, los choques culturales, las dificultades de comunicación, o la gran dispersión de las distintas zonas industriales de China son algunos de esos factores cruciales que hay que considerar antes de iniciar relaciones comerciales con empresas chinas.<br><br>Por este motivo, los servicios de asesoría de compras y traducción le facilitan su primera operación de importación en China. Atenderemos todas las necesidades de las empresas extranjeras en relación a la adquisición del producto deseado a un precio competitivo a lo largo de toda la geografía China. Contamos con un equipo humano dinámico, responsable, paciente, y proactivo; todo lo cual nos permite guiarles a lo largo del proceso de compra con las mayores garantías, a fin de asegurar que su entrada en China sea un éxito."
+  },
+  "PAGE_EVENTS": {
+    "TITLE": "Ferias",
+    "TEXT": "<b>Feria del cantón:</b> <a target='_blank', href='https://www.cantonfair.org.cn/en' class='text-link'>Ver más</a> <br>La Feria de Cantón es una feria comercial efectuada cada año durante las temporadas de primavera y otoño en Cantón, China. Fue inaugurada en abril de 1957; Su nombre completo desde el 2007 es Feria de Importación y Exportación de China  ya que antes solía llamarse Feria de Exportación de Mercancía China, también conocida como La Feria de Cantón La Feria de Cantón es presentada por el Ministerio de Comercio de China y el Gobierno Popular de la Provincia de Cantón, además es organizada por el Centro de Comercio Extranjero de China.<br>Es la feria comercial más grande en China, con la mayor y más amplia variedad de productos, mayor cantidad de personas asistentes y la realización del mayor número de acuerdos de negocios. Como muchas ferias comerciales, tiene muchas tradiciones y funciones al representar un evento de gran importancia internacional.<br><br><b>Feria de Yiwu:</b> <a target='_blank', href='http://www.yiwufair.com/es' class='text-link'>Ver más</a><br>La llamada “Ciudad de Mercancías Chinas”, puedes visitarla todos los días del año a excepción del año nuevo chino, el que cae en enero o febrero de cada año. Yiwu Es el lugar ideal para comprar productos terminados, en muy pequeñas cantidades, por ejemplo, desde solo una caja de un mismo producto.<br>En la feria de Yiwu se ofrecen principalmente artículos de uso cotidiano como:<br>•\tRegalos<br>•\tJuguetes<br>•\tArtesanías<br>•\tIndumentaria<br>•\tDecoración para el hogar<br>•\tFerretería<br>•\tHerramientas<br>•\tTecnología<br>En particular, relojes, accesorios, textiles y electrónica son los objetos más vendidos.<br><br><b>Feria Global Sources Exhibitions HONG KONG:</b> <a target='_blank', href='https://www.globalsources.com/TRADESHOW/CSF/INDEX.HTM' class='text-link'>Ver más</a><br>Fundada en 1970, Global Sources es una gran empresa de medios B2B que cotiza en NASDAQ y tiene su sede en Hong Kong. La compañía ofrece servicios de abastecimiento y comercialización. También ayuda con la verificación de proveedores.<br>Actualmente, Global Sources administra cuatro ferias comerciales diferentes:<br>•\tGlobal Sources Consumer Electronics Trade Show (electrónica de consumo)<br>•\tGlobal Sources Mobile Electronics Trade Show (electrónica móvil)<br>•\tGlobal Sources Lifestyle (regalos y hogar)<br>•\tGlobal Sources Fashion Trade Show (moda)<br>Todas las ferias se celebran en octubre de cada año, del 11 al 30 de octubre <br><br><b>Feria internacional de la iluminación  HONG KONG:</b> <a target='_blank', href='https://event.hktdc.com/fair/hklightingfairae-en/HKTDC-Hong-Kong-International-Lighting-Fair-Autumn-Edition/' class='text-link'>Ver más</a><br>Hong Kong International Lighting Fair es una feria internacional para la iluminación y el mayor evento de su tipo en Asia. Expositores de todo el mundo muestra lo último en diseño de iluminación y la tecnología. Los visitantes pueden ver los nuevos productos, así como a ponerse al día sobre las nuevas ideas y tendencias. La creciente demanda de aplicaciones de LED se responde por la zona de iluminación LED, mientras que la zona verde de iluminación con grupos de empresas de productos ecológicos.. La Hong Kong International Lighting Fair tendrá lugar en 4 días del martes 06 abril alviernes 09 de abril 2021 en Hong Kong."
   }
 }

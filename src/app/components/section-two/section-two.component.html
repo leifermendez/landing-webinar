@@ -2,176 +2,61 @@
   <div class="container">
     <div class="service-section">
       <h2 *ngIf="!section" class="section-title career-section-title">{{ "BLOCK_SERVICES.TITLE" | translate}}</h2>
-      <div *ngIf="!section" class="service-section">
-        <h4 class="section-title-sub career-section-title mb-4">{{'SERVICES.FIRST.TITLE' | translate}}</h4>
-        <div class="row">
-          <div class="col-md-12 mb-4 mb-md-0 wow fadeInUp">
-            <div class="d-flex justify-content-between mb-0">
+<!--      <div *ngIf="!section" class="service-section">-->
+<!--        <h4 class="section-title-sub career-section-title mb-4">{{'SERVICES.FIRST.TITLE' | translate}}</h4>-->
+<!--        <div class="row">-->
+<!--          <div class="col-md-12 mb-4 mb-md-0 wow fadeInUp">-->
+<!--            <div class="d-flex justify-content-between mb-0">-->
 
-              <p [innerHTML]="'SERVICES.FIRST.CONTENT' | translate"></p>
-            </div>
-            <div class="list-check pb-2">
-              <ul class="">
-                <li class="pb-2" *ngFor="let list of checkList">
-                  <fa-icon [icon]="faCheck"></fa-icon>
-                  <span class="pl-2" [innerHTML]="list"></span>
-                </li>
-              </ul>
-            </div>
-            <div class="d-flex mt-2">
-              <a target="_blank" class="text-black" [href]="'GENERAL.WS' | translate">
-                <span class="pr-2" [innerHTML]="'GENERAL.GENERAL_PRODUCTS_WS' | translate"></span>
-                <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon><b class="ml-1" [innerHTML]="'GENERAL.CLICK_WS' | translate"></b>
-              </a>
-            </div>
-            <div class="text-center">
-              <br>
-              <br>
-              <b>{{'BLOCK_PRODUCTS.SUB_TITLE'| translate}}</b><br>
-              <app-section-product></app-section-product>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--              <p [innerHTML]="'SERVICES.FIRST.CONTENT' | translate"></p>-->
+<!--            </div>-->
+<!--            <div class="list-check pb-2">-->
+<!--              <ul class="">-->
+<!--                <li class="pb-2" *ngFor="let list of checkList">-->
+<!--                  <fa-icon [icon]="faCheck"></fa-icon>-->
+<!--                  <span class="pl-2" [innerHTML]="list"></span>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="d-flex mt-2">-->
+<!--              <a target="_blank" class="text-black" [href]="'GENERAL.WS' | translate">-->
+<!--                <span class="pr-2" [innerHTML]="'GENERAL.GENERAL_PRODUCTS_WS' | translate"></span>-->
+<!--                <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon><b class="ml-1" [innerHTML]="'GENERAL.CLICK_WS' | translate"></b>-->
+<!--              </a>-->
+<!--            </div>-->
+<!--            <div class="text-center">-->
+<!--              <br>-->
+<!--              <br>-->
+<!--              <b>{{'BLOCK_PRODUCTS.SUB_TITLE'| translate}}</b><br>-->
+<!--              <app-section-product></app-section-product>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
       <div *ngIf="section" class="service-section">
-        <h4 class="section-title-sub career-section-title mb-4">
-          {{'SERVICES.SECOND.TITLE' | translate}}</h4>
+<!--        <h4 class="section-title-sub career-section-title mb-4">-->
+<!--          {{'SERVICES.SECOND.TITLE' | translate}}</h4>-->
         <div class="row">
           <div class="col-md-12 mb-4 mb-md-0 wow fadeInUp">
-            <div class="pt-2 pb-2 mb-0" *ngFor="let item of items">
-              <div><b>{{item?.TITLE}}</b></div>
-              <p [innerHTML]="item?.CONTENT"></p>
-            </div>
-            <!--BOX -->
             <div class="row mt-4">
-              <div class="col-md-3 mb-3 mb-md-0 wow fadeInUp plan plan-free">
-                <h6 class="service-category-title"
+              <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp plan plan-free">
+                <h6 class="service-category-title text-center w-100"
                     [innerHTML]="'BLOCK_SERVICES.FIRST_PLAN.TITLE' | translate"></h6>
-                <ul class="service-list list-group list-group-flush">
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.ONE" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.TWO" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FIRST_PLAN.CONTENT.THREE" | translate}}</li>
-                </ul>
-                <div>
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="hiro-btn-outline button-over-zoom mt-4">
-                    {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.FIRST_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-                  </a>
-                </div>
-                <div class="pt-2 pl-1" (click)="open('FIRST_PLAN')">
-                  <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.DETAIL" |translate}}</button>
-                </div>
+                <p [innerHTML]="'BLOCK_SERVICES.FIRST_PLAN.CONTENT.ONE' | translate"></p>
               </div>
-              <div class="col-md-3 mb-3 mb-md-0 wow fadeInUp plan plan-free">
-                <h6 class="service-category-title">{{"BLOCK_SERVICES.SECOND_PLAN.TITLE" | translate}}
-                  <fa-icon [style.color]="'orange'" [icon]="faAward"></fa-icon>
-                </h6>
-                <ul class="service-list list-group list-group-flush">
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.SECOND_PLAN.CONTENT.ONE" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.SECOND_PLAN.CONTENT.TWO" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.SECOND_PLAN.CONTENT.THREE" | translate}}</li>
-                </ul>
-                <div class="d-flex">
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="hiro-btn-outline button-over-zoom mt-4">
-                    <div></div>
-                    {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.SECOND_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-                  </a>
-                  <div class="mt-4 pl-2 badge-strike">
-                    <div>
-                      <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>
-                      <span class="text-strike"> {{ 'GENERAL.SYMBOL' |translate}}
-                        {{"BLOCK_SERVICES.SECOND_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="pt-2 pl-1" (click)="open('SECOND_PLAN')">
-                  <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.DETAIL" |translate}}</button>
-                </div>
+              <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp plan plan-free">
+                <h6 class="service-category-title text-center w-100"
+                    [innerHTML]="'BLOCK_SERVICES.SECOND_PLAN.TITLE' | translate"></h6>
+                <p [innerHTML]="'BLOCK_SERVICES.SECOND_PLAN.CONTENT.ONE' | translate"></p>
               </div>
-              <div class="col-md-3 mb-3 mb-md-0 wow fadeInUp plan plan-free">
-                <h6 class="service-category-title">{{"BLOCK_SERVICES.THREE_PLAN.TITLE" | translate}}
-                  <fa-icon [style.color]="'orange'" [icon]="faCrown"></fa-icon>
-                </h6>
-                <ul class="service-list list-group list-group-flush">
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.THREE_PLAN.CONTENT.ONE" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.THREE_PLAN.CONTENT.TWO" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.THREE_PLAN.CONTENT.THREE" | translate}}</li>
-                </ul>
-                <div class="d-flex">
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="hiro-btn-outline button-over-zoom mt-4">
-                    <div></div>
-                    {{ 'GENERAL.SYMBOL' |translate}}{{"BLOCK_SERVICES.THREE_PLAN.PRICE" | translate}} {{"GENERAL.CURRENCY" | translate}}
-                  </a>
-                  <div class="mt-4 pl-2 badge-strike">
-                    <div>
-                      <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>
-                      <span class="text-strikeº"> {{ 'GENERAL.SYMBOL' |translate}}
-                        {{"BLOCK_SERVICES.THREE_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp plan plan-free">
+                <h6 class="service-category-title text-center w-100"
+                    [innerHTML]="'BLOCK_SERVICES.THREE_PLAN.TITLE' | translate"></h6>
+                <p [innerHTML]="'BLOCK_SERVICES.THREE_PLAN.CONTENT.ONE' | translate"></p>
+              </div>
 
-                <div class="pt-2 pl-1" (click)="open('THIRD_PLAN')">
-                  <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.DETAIL" |translate}}</button>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3 mb-md-0 wow fadeInUp plan plan-free">
-                <h6 class="service-category-title">{{"BLOCK_SERVICES.FOUR_PLAN.TITLE" | translate}}
-                  <fa-icon [style.color]="'orange'" [icon]="faCrown"></fa-icon>
-                </h6>
-                <ul class="service-list list-group list-group-flush">
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FOUR_PLAN.CONTENT.ONE" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FOUR_PLAN.CONTENT.TWO" | translate}}</li>
-                  <li class="list-group-item">
-                    <fa-icon [icon]="faCheck"></fa-icon>
-                    {{"BLOCK_SERVICES.FOUR_PLAN.CONTENT.THREE" | translate}}</li>
-                </ul>
-                <div class="d-flex">
-                  <a [href]="'GENERAL.WS' |translate" target="_blank"
-                     class="hiro-btn-outline button-over-zoom mt-4">
-                    <div></div>
-                   {{"BLOCK_SERVICES.FOUR_PLAN.INFO" | translate}}
-                  </a>
-<!--                  <div class="mt-4 pl-2 badge-strike">-->
-<!--                    <div>-->
-<!--                      <div><small>{{'GENERAL.BEFORE' |translate}}</small></div>-->
-<!--                      <span class="text-strikeº"> {{ 'GENERAL.SYMBOL' |translate}}-->
-<!--                        {{"BLOCK_SERVICES.FOUR_PLAN.BEFORE_PRICE" |translate}}  {{ 'GENERAL.CURRENCY' |translate}} </span>-->
-<!--                    </div>-->
-<!--                  </div>-->
-                </div>
-
-                <div class="pt-2 pl-1" (click)="open('FOURTH_PLAN')">
-                  <button class="link-hover-fx link-light btn-link btn">{{"GENERAL.DETAIL" |translate}}</button>
-                </div>
-              </div>
             </div>
-            <!--END BOX -->
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ export class HomeComponent implements OnInit {
   public dataThree = [];
   public dataFour = [];
   public dataFive = [];
+  faWhatsapp = faWhatsapp;
 
   constructor() {
   }

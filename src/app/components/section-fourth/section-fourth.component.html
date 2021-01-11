@@ -5,9 +5,15 @@
     <div class="contact-address">
       <div class="row">
         <div class="col-md-5">
-          <img src="../../../assets/images/logo-letras.svg" width="100px" alt="">
-          <!--          <p class="font-weight-medium" [innerHTML]="'BLOCK_TALK.ADDRESS' |translate"></p>-->
+          <div class="d-flex">
+            <img src="../../../assets/images/logo-letras.svg" width="100px" alt="">
+            <div>
+              <div style="width: 100%" class="pl-2 pr-2"><iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100&amp;hl=es&amp;q=23.22404447966855,%20113.2741700654461+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div> </div>
+          </div>
+
+          <p class="font-weight-medium pt-2" [innerHTML]="'BLOCK_TALK.ADDRESS' |translate"></p>
         </div>
+
         <div class="col-md-5 mb-4 mb-md-0">
           <p class="font-weight-medium" [innerHTML]="'BLOCK_TALK.PHONE'| translate"></p>
           <ul class="nav contact-social-links">

@@ -1,24 +1,24 @@
 <app-header id="header"></app-header>
 
-<app-light-component
-  [color]="'rgb(237, 248, 255)'" [data]="dataTwo">
-</app-light-component>
+<!--<app-light-component-->
+<!--  [color]="'rgb(237, 248, 255)'" [data]="dataTwo">-->
+<!--</app-light-component>-->
 
 
-<app-light-component
-   [color]="'rgb(255, 153, 146)'"
-  [data]="dataThree">
-</app-light-component>
+<!--<app-light-component-->
+<!--  [color]="'rgb(255, 153, 146)'"-->
+<!--  [data]="dataThree">-->
+<!--</app-light-component>-->
 
 
-<app-light-component
-   [color]="'#f6e58d'"
-  [data]="dataFour">
-</app-light-component>
+<!--<app-light-component-->
+<!--  [color]="'#f6e58d'"-->
+<!--  [data]="dataFour">-->
+<!--</app-light-component>-->
 <!--&lt;!&ndash; SECTION ONE &ndash;&gt;-->
 <!--<app-section-one id="one"></app-section-one>-->
 
-<app-section-two [color]="'rgb(238, 238, 238)'" [section]="false"></app-section-two>
+<!--<app-section-two [color]="'rgb(238, 238, 238)'" [section]="false"></app-section-two>-->
 <app-section-two [section]="true"></app-section-two>
 <!--<app-section-product id="products"></app-section-product>-->
 
@@ -31,11 +31,16 @@
 <!--&lt;!&ndash; SECTION PRODUCT &ndash;&gt;-->
 
 
-<app-light-component [color]="'rgb(238, 238, 238)'" [data]="dataFive"></app-light-component>
+<!--<app-light-component [color]="'rgb(238, 238, 238)'" [data]="dataFive"></app-light-component>-->
 
 <!--&lt;!&ndash; SECTION FOURTH &ndash;&gt;-->
 
-<app-faq id="faq"></app-faq>
+<!--<app-faq id="faq"></app-faq>-->
 <!--&lt;!&ndash; FOOTER &ndash;&gt;-->
 <app-section-fourth id="forth"></app-section-fourth>
 <app-footer></app-footer>
+<div class="whatsapp-fab">
+  <a [href]="'GENERAL.WS' | translate" target="_blank" [style.color]="'#007500'">
+    <fa-icon [icon]="faWhatsapp" size="3x"></fa-icon>
+  </a>
+</div>

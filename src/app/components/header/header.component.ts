@@ -21,16 +21,44 @@ import {transition, trigger, style, animate} from '@angular/animations';
 })
 export class HeaderComponent implements OnInit {
   @Input() carousel = true;
+  @Input() data: any = null;
   public content = {
     firstSecond: null,
     secondSecond: null,
     thirdSecond: null
   };
+  menu: any = [];
 
   constructor(private translate: TranslateService) {
   }
 
   ngOnInit() {
+    this.menu = [
+      {
+        label: 'MENU.HOME',
+        route: ['/']
+      },
+      {
+        label: 'MENU.ABOUT_US',
+        route: ['/', 'about']
+      },
+      {
+        label: 'MENU.SERVICES',
+        route: ['/', 'services']
+      },
+      {
+        label: 'MENU.EVENTS',
+        route: ['/', 'events']
+      },
+      {
+        label: 'MENU.CONTACT',
+        route: ['/', 'services']
+      },
+      {
+        label: 'MENU.SUPPORT',
+        route: ['/', 'support']
+      }
+    ];
     this.translate.get('SECTION_ONE.SECOND_SENTENCE').subscribe((res: string) => {
       this.content = {
         ...this.content, ...{
@@ -60,4 +88,6 @@ export class HeaderComponent implements OnInit {
     const body = document.querySelector('body');
     body.classList.remove('hiro-nav-popup-modal-open');
   };
+
+
 }

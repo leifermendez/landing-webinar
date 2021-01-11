@@ -5,3 +5,15 @@ header{
   background-color: #f6e58d;
 
 }
+
+.wrapper-menu {
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+
+.wrapper-menu .item-menu{
+  cursor: pointer;
+  color: white;
+  padding-right: 1rem;
+}

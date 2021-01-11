@@ -21,7 +21,7 @@
   },
   "SECTION_ONE": {
     "FIRST_SENTENCE": "¿Quiénes somos?",
-    "SECOND_SENTENCE": "Somos una empresa internacional con más de 5 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fabrica, y vendemos tanto al por mayor como al por menor. <br><br> Pero debido al enorme auge del comercio online, también ofrecemos Asesoría y formación a todo aquél que no quiera quedarse atrás."
+    "SECOND_SENTENCE": "Somos una empresa internacional con más de 5 años de experiencia en la importación directa de China. Disponemos de un extenso catálogo de productos de máxima calidad a precios de fábrica, y vendemos tanto al por mayor como al por menor. <br><br> Debido al enorme auge del comercio online, también ofrecemos Asesoría y formación a todo aquél que no quiera quedarse atrás."
   },
   "SECTION_TWO": {
     "FIRST_SENTENCE": "¿Quieres emprender un negocio?",
@@ -36,7 +36,7 @@
   "BLOCK_ONE": {
     "FIRST_SENTENCE": "ACCESO A PROVEEDORES",
     "SECOND_SENTENCE": "Al tener acceso a nuestros proveedores, obtendras una gran ventaja para iniciar tu emprendimiento, estarias ahorrando tiempo y dinero ademas del crecimiento y la expansión de tu negocio.",
-    "THIRD_SENTENCE": "Con nuestra formación te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fabrica del mundo"
+    "THIRD_SENTENCE": "Con nuestra formación te daremos todas las soluciones, conocimientos y experiencia para que puedas realizar y aprender a como importar desde la fábrica del mundo"
   },
   "SERVICES": {
     "FIRST": {
@@ -110,6 +110,7 @@
       "CONTENT.ONE": "Enseñanza online paso a paso",
       "CONTENT.TWO": "Precios de fábrica sin intermediarios",
       "CONTENT.THREE": "Profesionales a tu disposición",
+      "BEFORE_PRICE": 649,
       "PRICE": 349
     },
     "SECOND_PLAN": {
@@ -146,7 +147,7 @@
     "TITLE": "Cuéntanos tu proyecto",
     "CONTENT": "Somos la solución para el crecimiento de tu negocio",
     "ADDRESS": "",
-    "PHONE": "ES: <a href='https://wa.me/34645356542' target='_blank'>+34 645 35 65 42</a> <br> <a href='mailto:tuenlacedirecto@gmail.com'>tuenlacedirecto@gmail.com</a>"
+    "PHONE": "ES: <a href='https://wa.me/34645356542' target='_blank'>+34 645 35 65 42</a> <br> <a href='mailto:info@tuenlacedirecto.com'>info@tuenlacedirecto.com</a>"
   },
   "BLOCK_PRODUCTS": {
     "TITLE": "Productos",
