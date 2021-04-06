@@ -48,7 +48,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     SectionProductComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     SharedModule,
     FontAwesomeModule,

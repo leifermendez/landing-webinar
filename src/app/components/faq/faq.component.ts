@@ -11,15 +11,16 @@ export class FaqComponent implements OnInit {
   faPlus = faPlus;
   faMinus = faMinus;
   isCollapsed = true;
-  public data: any;
+  public data: any = [];
 
   constructor(private translate: TranslateService) {
   }
 
   ngOnInit(): void {
-    this.translate.get('FAQ.QUESTIONS').subscribe((res: string) => {
+    this.translate.get('FAQ.QUESTIONS').subscribe((res: any) => {
       // console.log(res);
-      this.data = res;
+      console.log('--->',res)
+      this.data = [];
       // this.changeBackground(this.section);
     });
   }

@@ -1,4 +1,14 @@
-import {AfterViewChecked, AfterViewInit, Directive, ElementRef, Input, OnChanges} from '@angular/core';
+import {
+  AfterViewChecked,
+  AfterViewInit,
+  Directive,
+  ElementRef,
+  Inject,
+  Input,
+  OnChanges,
+  PLATFORM_ID
+} from '@angular/core';
+import {isPlatformBrowser} from '@angular/common';
 
 @Directive({
   selector: '[appReadMore]'
@@ -14,7 +24,7 @@ export class ReadMoreDirective implements AfterViewInit, OnChanges {
   private text: string;
   private isCollapsed = true;
 
-  constructor(private el: ElementRef) {
+  constructor(private el: ElementRef, @Inject(PLATFORM_ID) private platformId) {
   }
 
   /**
@@ -63,24 +73,27 @@ export class ReadMoreDirective implements AfterViewInit, OnChanges {
    */
   private determineView(): void {
 
-    // tslint:disable-next-line:variable-name
-    const _elementChange = document.getElementById(this.elementChange.id);
-    if (this.text.length <= this.maxLength) {
-      this.currentText = this.text;
-      _elementChange.classList.remove(`less-text-more-${this.maxLength}`);
-      this.isCollapsed = false;
-      this.hideToggle = true;
-      return;
+    if(isPlatformBrowser(this.platformId)){
+      // tslint:disable-next-line:variable-name
+      const _elementChange = document.getElementById(this.elementChange.id);
+      if (this.text.length <= this.maxLength) {
+        this.currentText = this.text;
+        _elementChange.classList.remove(`less-text-more-${this.maxLength}`);
+        this.isCollapsed = false;
+        this.hideToggle = true;
+        return;
+      }
+      this.hideToggle = false;
+      if (this.isCollapsed === true) {
+        // this.currentText = this.text.substring(0, this.maxLength) + '...';
+        _elementChange.classList.add(`less-text-more-${this.maxLength}`);
+      } else if (this.isCollapsed === false) {
+        this.currentText = this.text;
+        _elementChange.classList.remove(`less-text-more-${this.maxLength}`);
+        // _elementChange.innerHTML = this.currentText;
+      }
     }
-    this.hideToggle = false;
-    if (this.isCollapsed === true) {
-      // this.currentText = this.text.substring(0, this.maxLength) + '...';
-      _elementChange.classList.add(`less-text-more-${this.maxLength}`);
-    } else if (this.isCollapsed === false) {
-      this.currentText = this.text;
-      _elementChange.classList.remove(`less-text-more-${this.maxLength}`);
-      // _elementChange.innerHTML = this.currentText;
-    }
+
   }
 
 

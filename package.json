@@ -8,7 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+    "dev:ssr": "ng run landing-webinar:serve-ssr",
+    "serve:ssr": "node dist/landing-webinar/server/main.js",
+    "build:ssr": "ng build --prod && ng run landing-webinar:server:production",
+    "prerender": "ng run landing-webinar:prerender"
   },
   "author": {
     "email": "leifer33@gmail.com",
@@ -23,6 +27,7 @@
     "@angular/forms": "~11.2.8",
     "@angular/platform-browser": "~11.2.8",
     "@angular/platform-browser-dynamic": "~11.2.8",
+    "@angular/platform-server": "~11.2.8",
     "@angular/router": "~11.2.8",
     "@angular/service-worker": "^11.2.8",
     "@fortawesome/angular-fontawesome": "^0.6.1",
@@ -30,6 +35,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@kolkov/ngx-gallery": "^1.2.0",
+    "@nguniversal/express-engine": "^11.2.1",
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^4.0.0",
     "@twogate/ngx-photo-gallery": "^0.1.0",
@@ -55,7 +61,9 @@
     "@angular/cli": "~11.2.7",
     "@angular/compiler-cli": "~11.2.8",
     "@angular/language-service": "~11.2.8",
+    "@nguniversal/builders": "^11.2.1",
     "@types/core-js": "^2.5.3",
+    "@types/express": "^4.17.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
