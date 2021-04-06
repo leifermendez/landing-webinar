@@ -18,8 +18,7 @@ export class FaqComponent implements OnInit {
 
   ngOnInit(): void {
     this.translate.get('FAQ.QUESTIONS').subscribe((res: any) => {
-      // console.log(res);
-      console.log('--->',res)
+      console.log(res);
       this.data = [];
       // this.changeBackground(this.section);
     });

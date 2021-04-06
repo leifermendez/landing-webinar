@@ -1,4 +1,4 @@
-import {BrowserModule} from '@angular/platform-browser';
+import {BrowserModule, TransferState} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {AppComponent} from './app.component';
@@ -26,6 +26,7 @@ import {NgxGalleryModule} from '@kolkov/ngx-gallery';
 import { SectionProductComponent } from './components/section-product/section-product.component';
 import {PhotoGalleryModule} from '@twogate/ngx-photo-gallery';
 import {CarouselModule} from 'ngx-owl-carousel-o';
+import {translateBrowserLoaderFactory} from "./translate-browser.loader";
 
 
 export function playerFactory() {
@@ -54,11 +55,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     FontAwesomeModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'es',
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
+        useFactory: translateBrowserLoaderFactory,
+        deps: [HttpClient, TransferState]
       }
     }),
     LottieModule.forRoot({player: playerFactory}),
@@ -71,7 +71,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PhotoGalleryModule,
     CarouselModule
   ],
-  providers: [],
+  providers: [TransferState],
   exports: [],
   bootstrap: [AppComponent]
 })
