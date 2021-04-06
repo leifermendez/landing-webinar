@@ -21,8 +21,9 @@ const routes: Routes = [
     onSameUrlNavigation: 'ignore',
     anchorScrolling: 'enabled',
     scrollPositionRestoration: 'enabled',
-    useHash: true
-  })],
+    useHash: true,
+    relativeLinkResolution: 'legacy'
+})],
   exports: [RouterModule]
 })
 export class AppRoutingModule {
