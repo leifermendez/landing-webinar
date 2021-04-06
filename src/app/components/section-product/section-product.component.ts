@@ -86,7 +86,7 @@ export class SectionProductComponent implements OnInit {
           }
         },
         secondImg: {
-          image: '../../assets/images/products/nike/img_1.jpg',
+          image: '../../assets/images/products/nike/img_2.jpg',
           brand: {
             name: 'Nike'
           }
