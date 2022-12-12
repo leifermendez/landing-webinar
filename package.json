@@ -36,7 +36,7 @@
     "@videogular/ngx-videogular": "^3.0.1",
     "animate.css": "^4.1.0",
     "bootstrap": "4.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "flag-icon-css": "^3.4.6",
     "lottie-web": "^5.6.10",
     "ngx-bootstrap": "^5.6.1",
